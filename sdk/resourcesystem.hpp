@@ -10,8 +10,9 @@
 // /////////////////////////////////////////////////////////////
 
 // Registered binary: resourcesystem.dll (project 'mathlib_extended')
+// Enumerator count: 2
 // Alignment: 1
-// Size: 0x2
+// Size: 0x1
 enum class FuseVariableAccess_t : uint8_t
 {
 	WRITABLE = 0x0,
@@ -19,8 +20,9 @@ enum class FuseVariableAccess_t : uint8_t
 };
 
 // Registered binary: resourcesystem.dll (project 'mathlib_extended')
+// Enumerator count: 9
 // Alignment: 1
-// Size: 0x9
+// Size: 0x1
 enum class FuseVariableType_t : uint8_t
 {
 	INVALID = 0x0,
@@ -55,7 +57,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vtest"
 struct InfoForResourceTypeTestResource_t
 {
 private:
@@ -69,7 +71,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vptest"
 struct InfoForResourceTypeProceduralTestResource_t
 {
 private:
@@ -83,7 +85,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vmtst"
 struct InfoForResourceTypeManifestTestResource_t
 {
 private:
@@ -111,7 +113,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vdata"
 class InfoForResourceTypeCVDataResource
 {
 private:
@@ -125,7 +127,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vpulse"
 class InfoForResourceTypeIPulseGraphDef
 {
 private:
@@ -139,7 +141,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vts"
 class InfoForResourceTypeCTypeScriptResource
 {
 private:
@@ -153,7 +155,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vjs"
 class InfoForResourceTypeCJavaScriptResource
 {
 private:
@@ -167,7 +169,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vpcf"
 class InfoForResourceTypeIParticleSystemDefinition
 {
 private:
@@ -181,7 +183,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vsnap"
 class InfoForResourceTypeIParticleSnapshot
 {
 private:
@@ -195,7 +197,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vanim"
 class InfoForResourceTypeCAnimData
 {
 private:
@@ -209,7 +211,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vagrp"
 class InfoForResourceTypeCAnimationGroup
 {
 private:
@@ -223,7 +225,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vseq"
 class InfoForResourceTypeCSequenceGroupData
 {
 private:
@@ -237,7 +239,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vmat"
 class InfoForResourceTypeIMaterial2
 {
 private:
@@ -251,7 +253,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vmorf"
 class InfoForResourceTypeCMorphSetData
 {
 private:
@@ -265,7 +267,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vmesh"
 class InfoForResourceTypeCRenderMesh
 {
 private:
@@ -279,7 +281,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vmdl"
 class InfoForResourceTypeCModel
 {
 private:
@@ -293,7 +295,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vtex"
 class InfoForResourceTypeCTextureBase
 {
 private:
@@ -307,7 +309,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vsvg"
 class InfoForResourceTypeIVectorGraphic
 {
 private:
@@ -321,7 +323,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vsndevts"
 class InfoForResourceTypeCVSoundEventScriptList
 {
 private:
@@ -335,7 +337,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vsndstckvseq"
 class InfoForResourceTypeCVSoundStackScriptList
 {
 private:
@@ -349,7 +351,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vsnd"
 class InfoForResourceTypeCVoiceContainerBase
 {
 private:
@@ -363,7 +365,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vmix"
 class InfoForResourceTypeCVMixListResource
 {
 private:
@@ -377,7 +379,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vphys"
 class InfoForResourceTypeCPhysAggregateData
 {
 private:
@@ -391,7 +393,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vsurf"
 class InfoForResourceTypeCVPhysXSurfacePropertiesList
 {
 private:
@@ -405,7 +407,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vents"
 class InfoForResourceTypeCEntityLump
 {
 private:
@@ -419,7 +421,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vwnod"
 class InfoForResourceTypeCWorldNode
 {
 private:
@@ -433,7 +435,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vwrld"
 struct InfoForResourceTypeWorld_t
 {
 private:
@@ -447,7 +449,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vvis"
 class InfoForResourceTypeCVoxelVisibility
 {
 private:
@@ -461,7 +463,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vpost"
 class InfoForResourceTypeCPostProcessingResource
 {
 private:
@@ -475,7 +477,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vcss"
 class InfoForResourceTypeCPanoramaStyle
 {
 private:
@@ -489,7 +491,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vxml"
 class InfoForResourceTypeCPanoramaLayout
 {
 private:
@@ -503,7 +505,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vpdi"
 class InfoForResourceTypeCPanoramaDynamicImages
 {
 private:
@@ -517,7 +519,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "item"
 class InfoForResourceTypeCDotaItemDefinitionResource
 {
 private:
@@ -531,7 +533,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vdpn"
 class InfoForResourceTypeCDOTAPatchNotesList
 {
 private:
@@ -545,7 +547,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vdvn"
 class InfoForResourceTypeCDOTANovelsList
 {
 private:
@@ -559,7 +561,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vanmgrpheconitemvents"
 class InfoForResourceTypeIAnimGraphModelBinding
 {
 private:
@@ -573,7 +575,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vcdlist"
 class InfoForResourceTypeCChoreoSceneFileData
 {
 private:
@@ -587,7 +589,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vdacdefsvsvg"
 class InfoForResourceTypeCDACGameDefsData
 {
 private:
@@ -601,7 +603,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vcompmat"
 class InfoForResourceTypeCCompositeMaterialKit
 {
 private:
@@ -615,7 +617,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vgcxdatavxml"
 class InfoForResourceTypeCGcExportableExternalData
 {
 private:
@@ -629,7 +631,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vsmart"
 class InfoForResourceTypeCSmartProp
 {
 private:
@@ -643,7 +645,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "econitemvents"
 class InfoForResourceTypeCCSGOEconItem
 {
 private:
@@ -657,7 +659,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vrr"
 class InfoForResourceTypeCResponseRulesList
 {
 private:
@@ -671,7 +673,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vnmskel"
 class InfoForResourceTypeCNmSkeleton
 {
 private:
@@ -685,7 +687,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vnmclip"
 class InfoForResourceTypeCNmClip
 {
 private:
@@ -699,7 +701,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vnmgraphvanmgrpheconitemvents"
 class InfoForResourceTypeCNmGraph
 {
 private:
@@ -713,7 +715,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vnmdset"
 class InfoForResourceTypeCNmGraphDataSet
 {
 private:

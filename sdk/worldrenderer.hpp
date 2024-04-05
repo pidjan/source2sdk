@@ -10,8 +10,9 @@
 // /////////////////////////////////////////////////////////////
 
 // Registered binary: worldrenderer.dll (project 'worldrenderer')
+// Enumerator count: 13
 // Alignment: 4
-// Size: 0xd
+// Size: 0x4
 enum class ObjectTypeFlags_t : uint32_t
 {
 	OBJECT_TYPE_NONE = 0x0,
@@ -461,7 +462,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType
+// MResourceTypeForInfoType "vmap"
 struct InfoForResourceTypeVMapResourceData_t
 {
 private:
