@@ -2,14 +2,17 @@
 #include <cstdint>
 #include "!GlobalTypes.hpp"
 
-///////////////////////////////////////////
+// /////////////////////////////////////////////////////////////
 // Binary: rendersystemdx11.dll
-// Class Count: 8
-// Enum Count: 7
-///////////////////////////////////////////
+// Classes count: 8
+// Enums count: 7
+// Created using source2gen - github.com/neverlosecc/source2gen
+// /////////////////////////////////////////////////////////////
 
-// Aligment: 4
-// Size: 21
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Enumerator count: 21
+// Alignment: 4
+// Size: 0x4
 enum class TextureSpecificationFlags_t : uint32_t
 {
 	TSPEC_FLAGS = 0x0,
@@ -35,8 +38,10 @@ enum class TextureSpecificationFlags_t : uint32_t
 	TSPEC_LINEAR_COLOR_SPACE = 0x80000,
 };
 
-// Aligment: 4
-// Size: 6
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Enumerator count: 6
+// Alignment: 4
+// Size: 0x4
 enum class CubeMapFace_t : uint32_t
 {
 	CUBEMAP_FACE_POSITIVE_X = 0x0,
@@ -47,8 +52,10 @@ enum class CubeMapFace_t : uint32_t
 	CUBEMAP_FACE_NEGATIVE_Z = 0x5,
 };
 
-// Aligment: 4
-// Size: 3
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Enumerator count: 3
+// Alignment: 4
+// Size: 0x4
 enum class RenderSlotType_t : uint32_t
 {
 	RENDER_SLOT_INVALID = 0xffffffffffffffff,
@@ -56,8 +63,10 @@ enum class RenderSlotType_t : uint32_t
 	RENDER_SLOT_PER_INSTANCE = 0x1,
 };
 
-// Aligment: 4
-// Size: 8
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Enumerator count: 8
+// Alignment: 4
+// Size: 0x4
 enum class RenderBufferFlags_t : uint32_t
 {
 	RENDER_BUFFER_USAGE_VERTEX_BUFFER = 0x1,
@@ -70,8 +79,10 @@ enum class RenderBufferFlags_t : uint32_t
 	RENDER_BUFFER_UAV_COUNTER = 0x80,
 };
 
-// Aligment: 4
-// Size: 45
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Enumerator count: 45
+// Alignment: 4
+// Size: 0x4
 enum class RenderPrimitiveType_t : uint32_t
 {
 	RENDER_PRIM_POINTS = 0x0,
@@ -121,8 +132,10 @@ enum class RenderPrimitiveType_t : uint32_t
 	RENDER_PRIM_TYPE_COUNT = 0x2c,
 };
 
-// Aligment: 4
-// Size: 6
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Enumerator count: 6
+// Alignment: 4
+// Size: 0x4
 enum class InputLayoutVariation_t : uint32_t
 {
 	INPUT_LAYOUT_VARIATION_DEFAULT = 0x0,
@@ -133,8 +146,10 @@ enum class InputLayoutVariation_t : uint32_t
 	INPUT_LAYOUT_VARIATION_MAX = 0x5,
 };
 
-// Aligment: 4
-// Size: 8
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Enumerator count: 8
+// Alignment: 4
+// Size: 0x4
 enum class RenderMultisampleType_t : uint32_t
 {
 	RENDER_MULTISAMPLE_INVALID = 0xffffffffffffffff,
@@ -147,87 +162,103 @@ enum class RenderMultisampleType_t : uint32_t
 	RENDER_MULTISAMPLE_TYPE_COUNT = 0x6,
 };
 
-// Aligment: 2
-// Size: 8
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 4
+// Size: 0x8
+// Has Trivial Destructor
 struct SequenceFloatParam_t
 {
 public:
-	CResourceString m_name; // 0x0
-	float m_value; // 0x4
+	CResourceString m_name; // 0x0	
+	float m_value; // 0x4	
 };
 
-// Aligment: 9
-// Size: 32
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 4
+// Size: 0x20
+// Has Trivial Destructor
 struct SheetSequence_t
 {
 public:
-	uint32_t m_nId; // 0x0
-	bool m_bClamp; // 0x4
-	bool m_bAlphaCrop; // 0x5
-	bool m_bNoColor; // 0x6
-	bool m_bNoAlpha; // 0x7
-	CResourceArray< SheetSequenceFrame_t > m_Frames; // 0x8
-	float m_flTotalTime; // 0x10
-	CResourceString m_name; // 0x14
-	CResourceArray< SequenceFloatParam_t > m_floatParams; // 0x18
+	uint32_t m_nId; // 0x0	
+	bool m_bClamp; // 0x4	
+	bool m_bAlphaCrop; // 0x5	
+	bool m_bNoColor; // 0x6	
+	bool m_bNoAlpha; // 0x7	
+	CResourceArray< SheetSequenceFrame_t > m_Frames; // 0x8	
+	float m_flTotalTime; // 0x10	
+	CResourceString m_name; // 0x14	
+	CResourceArray< SequenceFloatParam_t > m_floatParams; // 0x18	
 };
 
-// Aligment: 2
-// Size: 12
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 4
+// Size: 0xc
+// Has Trivial Destructor
 struct SheetSequenceFrame_t
 {
 public:
-	float m_flDisplayTime; // 0x0
-	CResourceArray< SheetFrameImage_t > m_Images; // 0x4
+	float m_flDisplayTime; // 0x0	
+	CResourceArray< SheetFrameImage_t > m_Images; // 0x4	
 };
 
-// Aligment: 2
-// Size: 32
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 4
+// Size: 0x20
+// Has Trivial Destructor
 struct SheetFrameImage_t
 {
 public:
-	Vector2D[2] uvCropped; // 0x0
-	Vector2D[2] uvUncropped; // 0x10
+	Vector2D uvCropped[2]; // 0x0	
+	Vector2D uvUncropped[2]; // 0x10	
 };
 
-// Aligment: 1
-// Size: 8
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 4
+// Size: 0x8
+// Has Trivial Destructor
 struct Sheet_t
 {
 public:
-	CResourceArray< SheetSequence_t > m_Sequences; // 0x0
+	CResourceArray< SheetSequence_t > m_Sequences; // 0x0	
 };
 
-// Aligment: 7
-// Size: 56
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 4
+// Size: 0x38
+// Has Trivial Constructor
+// Has Trivial Destructor
 struct RenderInputLayoutField_t
 {
 public:
-	uint8[32] m_pSemanticName; // 0x0
-	int32_t m_nSemanticIndex; // 0x20
-	uint32_t m_Format; // 0x24
-	int32_t m_nOffset; // 0x28
-	int32_t m_nSlot; // 0x2c
-	RenderSlotType_t m_nSlotType; // 0x30
-	int32_t m_nInstanceStepRate; // 0x34
+	uint8_t m_pSemanticName[32]; // 0x0	
+	int32_t m_nSemanticIndex; // 0x20	
+	uint32_t m_Format; // 0x24	
+	int32_t m_nOffset; // 0x28	
+	int32_t m_nSlot; // 0x2c	
+	RenderSlotType_t m_nSlotType; // 0x30	
+	int32_t m_nInstanceStepRate; // 0x34	
 };
 
-// Aligment: 4
-// Size: 196
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 4
+// Size: 0xc4
+// Has Trivial Destructor
 struct VsInputSignatureElement_t
 {
 public:
-	char[64] m_pName; // 0x0
-	char[64] m_pSemantic; // 0x40
-	char[64] m_pD3DSemanticName; // 0x80
-	int32_t m_nD3DSemanticIndex; // 0xc0
+	char m_pName[64]; // 0x0	
+	char m_pSemantic[64]; // 0x40	
+	char m_pD3DSemanticName[64]; // 0x80	
+	int32_t m_nD3DSemanticIndex; // 0xc0	
 };
 
-// Aligment: 1
-// Size: 24
+// Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
+// Alignment: 8
+// Size: 0x18
 struct VsInputSignature_t
 {
 public:
-	CUtlVector< VsInputSignatureElement_t > m_elems; // 0x0
+	CUtlVector< VsInputSignatureElement_t > m_elems; // 0x0	
 };
 
