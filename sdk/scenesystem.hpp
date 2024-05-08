@@ -13,12 +13,12 @@
 // Enumerator count: 4
 // Alignment: 1
 // Size: 0x1
-enum class DisableShadows_t : uint8_t
+enum class DisableShadows_t : std::uint8_t
 {
-	kDisableShadows_None = 0x0,
-	kDisableShadows_All = 0x1,
-	kDisableShadows_Baked = 0x2,
-	kDisableShadows_Realtime = 0x3,
+	kDisableShadows_None = 0,
+	kDisableShadows_All = 1,
+	kDisableShadows_Baked = 2,
+	kDisableShadows_Realtime = 3,
 };
 
 struct SceneViewId_t;
@@ -26,6 +26,7 @@ struct SceneViewId_t;
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x30
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSMsg_ViewTarget
@@ -48,6 +49,7 @@ public:
 // Size: 0x10
 // Has Trivial Constructor
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct SceneViewId_t
@@ -60,6 +62,7 @@ public:
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x10
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSEndFrameViewInfo
@@ -72,6 +75,7 @@ public:
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x38
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSMsg_LayerBase
@@ -91,6 +95,7 @@ public:
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x38
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSMsg_PostLayer : public CSSDSMsg_LayerBase
@@ -101,6 +106,7 @@ public:
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x38
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSMsg_PreLayer : public CSSDSMsg_LayerBase
@@ -111,6 +117,7 @@ public:
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x30
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSMsg_ViewTargetList
@@ -124,6 +131,7 @@ public:
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x18
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSMsg_ViewRender
@@ -136,6 +144,7 @@ public:
 // Registered binary: scenesystem.dll (project 'scenesystem')
 // Alignment: 8
 // Size: 0x18
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSSDSMsg_EndFrame

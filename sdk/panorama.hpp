@@ -13,7 +13,7 @@
 // Enumerator count: 13
 // Alignment: 4
 // Size: 0x4
-enum class ELayoutNodeType : uint32_t
+enum class ELayoutNodeType : std::uint32_t
 {
 	ROOT = 0x0,
 	STYLES = 0x1,
@@ -34,7 +34,7 @@ enum class ELayoutNodeType : uint32_t
 // Enumerator count: 16
 // Alignment: 4
 // Size: 0x4
-enum class EStyleNodeType : uint32_t
+enum class EStyleNodeType : std::uint32_t
 {
 	ROOT = 0x0,
 	EXPRESSION = 0x1,

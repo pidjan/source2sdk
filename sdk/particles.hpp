@@ -13,7 +13,7 @@
 // Enumerator count: 6
 // Alignment: 4
 // Size: 0x4
-enum class ParticleSetMethod_t : uint32_t
+enum class ParticleSetMethod_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Set Value"
 	PARTICLE_SET_REPLACE_VALUE = 0x0,
@@ -33,10 +33,10 @@ enum class ParticleSetMethod_t : uint32_t
 // Enumerator count: 7
 // Alignment: 4
 // Size: 0x4
-enum class Detail2Combo_t : uint32_t
+enum class Detail2Combo_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Uninitialized"
-	DETAIL_2_COMBO_UNINITIALIZED = 0xffffffffffffffff,
+	DETAIL_2_COMBO_UNINITIALIZED = 0xffffffff,
 	// MPropertyFriendlyName "Off"
 	DETAIL_2_COMBO_OFF = 0x0,
 	// MPropertyFriendlyName "Add"
@@ -55,10 +55,10 @@ enum class Detail2Combo_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class MissingParentInheritBehavior_t : uint32_t
+enum class MissingParentInheritBehavior_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Do Nothing"
-	MISSING_PARENT_DO_NOTHING = 0xffffffffffffffff,
+	MISSING_PARENT_DO_NOTHING = 0xffffffff,
 	// MPropertyFriendlyName "Kill Particle"
 	MISSING_PARENT_KILL = 0x0,
 	// MPropertyFriendlyName "Use Next Parent Particle"
@@ -71,9 +71,9 @@ enum class MissingParentInheritBehavior_t : uint32_t
 // Enumerator count: 5
 // Alignment: 4
 // Size: 0x4
-enum class ParticleFloatBiasType_t : uint32_t
+enum class ParticleFloatBiasType_t : std::uint32_t
 {
-	PF_BIAS_TYPE_INVALID = 0xffffffffffffffff,
+	PF_BIAS_TYPE_INVALID = 0xffffffff,
 	PF_BIAS_TYPE_STANDARD = 0x0,
 	PF_BIAS_TYPE_GAIN = 0x1,
 	PF_BIAS_TYPE_EXPONENTIAL = 0x2,
@@ -84,7 +84,7 @@ enum class ParticleFloatBiasType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleTraceMissBehavior_t : uint32_t
+enum class ParticleTraceMissBehavior_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Do Nothing"
 	PARTICLE_TRACE_MISS_BEHAVIOR_NONE = 0x0,
@@ -98,7 +98,7 @@ enum class ParticleTraceMissBehavior_t : uint32_t
 // Enumerator count: 7
 // Alignment: 4
 // Size: 0x4
-enum class PFuncVisualizationType_t : uint32_t
+enum class PFuncVisualizationType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Visualization Sphere Wireframe"
 	PFUNC_VISUALIZATION_SPHERE_WIREFRAME = 0x0,
@@ -120,7 +120,7 @@ enum class PFuncVisualizationType_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class ParticleVRHandChoiceList_t : uint32_t
+enum class ParticleVRHandChoiceList_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Left Hand"
 	PARTICLE_VRHAND_LEFT = 0x0,
@@ -136,7 +136,7 @@ enum class ParticleVRHandChoiceList_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class PetGroundType_t : uint32_t
+enum class PetGroundType_t : std::uint32_t
 {
 	PET_GROUND_NONE = 0x0,
 	PET_GROUND_GRID = 0x1,
@@ -147,7 +147,7 @@ enum class PetGroundType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class InheritableBoolType_t : uint32_t
+enum class InheritableBoolType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Inherit from Parent"
 	INHERITABLE_BOOL_INHERIT = 0x0,
@@ -161,9 +161,9 @@ enum class InheritableBoolType_t : uint32_t
 // Enumerator count: 24
 // Alignment: 4
 // Size: 0x4
-enum class ParticleFloatType_t : uint32_t
+enum class ParticleFloatType_t : std::uint32_t
 {
-	PF_TYPE_INVALID = 0xffffffffffffffff,
+	PF_TYPE_INVALID = 0xffffffff,
 	PF_TYPE_LITERAL = 0x0,
 	PF_TYPE_NAMED_VALUE = 0x1,
 	PF_TYPE_RANDOM_UNIFORM = 0x2,
@@ -193,7 +193,7 @@ enum class ParticleFloatType_t : uint32_t
 // Enumerator count: 6
 // Alignment: 4
 // Size: 0x4
-enum class ParticlePostProcessPriorityGroup_t : uint32_t
+enum class ParticlePostProcessPriorityGroup_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Level Volume"
 	PARTICLE_POST_PROCESS_PRIORITY_LEVEL_VOLUME = 0x0,
@@ -213,7 +213,7 @@ enum class ParticlePostProcessPriorityGroup_t : uint32_t
 // Enumerator count: 6
 // Alignment: 4
 // Size: 0x4
-enum class PFNoiseTurbulence_t : uint32_t
+enum class PFNoiseTurbulence_t : std::uint32_t
 {
 	PF_NOISE_TURB_NONE = 0x0,
 	PF_NOISE_TURB_HIGHLIGHT = 0x1,
@@ -227,7 +227,7 @@ enum class PFNoiseTurbulence_t : uint32_t
 // Enumerator count: 5
 // Alignment: 4
 // Size: 0x4
-enum class ParticleColorBlendMode_t : uint32_t
+enum class ParticleColorBlendMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Replace"
 	PARTICLEBLEND_DEFAULT = 0x0,
@@ -245,7 +245,7 @@ enum class ParticleColorBlendMode_t : uint32_t
 // Enumerator count: 13
 // Alignment: 4
 // Size: 0x4
-enum class ParticleColorBlendType_t : uint32_t
+enum class ParticleColorBlendType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Multiply"
 	PARTICLE_COLOR_BLEND_MULTIPLY = 0x0,
@@ -279,7 +279,7 @@ enum class ParticleColorBlendType_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class DetailCombo_t : uint32_t
+enum class DetailCombo_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Off"
 	DETAIL_COMBO_OFF = 0x0,
@@ -295,10 +295,10 @@ enum class DetailCombo_t : uint32_t
 // Enumerator count: 9
 // Alignment: 4
 // Size: 0x4
-enum class ScalarExpressionType_t : uint32_t
+enum class ScalarExpressionType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Uninitialized"
-	SCALAR_EXPRESSION_UNINITIALIZED = 0xffffffffffffffff,
+	SCALAR_EXPRESSION_UNINITIALIZED = 0xffffffff,
 	// MPropertyFriendlyName "Add"
 	SCALAR_EXPRESSION_ADD = 0x0,
 	// MPropertyFriendlyName "Subtract"
@@ -321,7 +321,7 @@ enum class ScalarExpressionType_t : uint32_t
 // Enumerator count: 14
 // Alignment: 4
 // Size: 0x4
-enum class SpriteCardPerParticleScale_t : uint32_t
+enum class SpriteCardPerParticleScale_t : std::uint32_t
 {
 	// MPropertyFriendlyName "None"
 	SPRITECARD_TEXTURE_PP_SCALE_NONE = 0x0,
@@ -357,7 +357,7 @@ enum class SpriteCardPerParticleScale_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class BlurFilterType_t : uint32_t
+enum class BlurFilterType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Gaussian"
 	BLURFILTER_GAUSSIAN = 0x0,
@@ -369,7 +369,7 @@ enum class BlurFilterType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class StandardLightingAttenuationStyle_t : uint32_t
+enum class StandardLightingAttenuationStyle_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Quadratic/Linear Bias"
 	LIGHT_STYLE_OLD = 0x0,
@@ -381,7 +381,7 @@ enum class StandardLightingAttenuationStyle_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleParentSetMode_t : uint32_t
+enum class ParticleParentSetMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Set Self and Children"
 	PARTICLE_SET_PARENT_NO = 0x0,
@@ -395,7 +395,7 @@ enum class ParticleParentSetMode_t : uint32_t
 // Enumerator count: 5
 // Alignment: 4
 // Size: 0x4
-enum class ParticleModelType_t : uint32_t
+enum class ParticleModelType_t : std::uint32_t
 {
 	PM_TYPE_INVALID = 0x0,
 	PM_TYPE_NAMED_VALUE_MODEL = 0x1,
@@ -408,21 +408,21 @@ enum class ParticleModelType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleLightingQuality_t : uint32_t
+enum class ParticleLightingQuality_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Per-Particle Lighting"
 	PARTICLE_LIGHTING_PER_PARTICLE = 0x0,
 	// MPropertyFriendlyName "Per-Vertex Lighting"
 	PARTICLE_LIGHTING_PER_VERTEX = 0x1,
 	// MPropertyFriendlyName "Per-Pixel Lighting"
-	PARTICLE_LIGHTING_PER_PIXEL = 0xffffffffffffffff,
+	PARTICLE_LIGHTING_PER_PIXEL = 0xffffffff,
 };
 
 // Registered binary: particles.dll (project 'particleslib')
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class PFNoiseType_t : uint32_t
+enum class PFNoiseType_t : std::uint32_t
 {
 	PF_NOISE_TYPE_PERLIN = 0x0,
 	PF_NOISE_TYPE_SIMPLEX = 0x1,
@@ -434,7 +434,7 @@ enum class PFNoiseType_t : uint32_t
 // Enumerator count: 11
 // Alignment: 4
 // Size: 0x4
-enum class EventTypeSelection_t : uint32_t
+enum class EventTypeSelection_t : std::uint32_t
 {
 	// MPropertyFriendlyName "None"
 	PARTICLE_EVENT_TYPE_MASK_NONE = 0x0,
@@ -464,7 +464,7 @@ enum class EventTypeSelection_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleDirectionNoiseType_t : uint32_t
+enum class ParticleDirectionNoiseType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Perlin"
 	PARTICLE_DIR_NOISE_PERLIN = 0x0,
@@ -478,7 +478,7 @@ enum class ParticleDirectionNoiseType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleHitboxBiasType_t : uint32_t
+enum class ParticleHitboxBiasType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Bias relative to Entity"
 	PARTICLE_HITBOX_BIAS_ENTITY = 0x0,
@@ -490,7 +490,7 @@ enum class ParticleHitboxBiasType_t : uint32_t
 // Enumerator count: 6
 // Alignment: 4
 // Size: 0x4
-enum class ParticleControlPointAxis_t : uint32_t
+enum class ParticleControlPointAxis_t : std::uint32_t
 {
 	// MPropertyFriendlyName "X Axis"
 	PARTICLE_CP_AXIS_X = 0x0,
@@ -510,10 +510,10 @@ enum class ParticleControlPointAxis_t : uint32_t
 // Enumerator count: 12
 // Alignment: 4
 // Size: 0x4
-enum class ParticlePinDistance_t : uint32_t
+enum class ParticlePinDistance_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Don't Break"
-	PARTICLE_PIN_DISTANCE_NONE = 0xffffffffffffffff,
+	PARTICLE_PIN_DISTANCE_NONE = 0xffffffff,
 	// MPropertyFriendlyName "Distance to Neighboring Particle"
 	PARTICLE_PIN_DISTANCE_NEIGHBOR = 0x0,
 	// MPropertyFriendlyName "Distance to Farthest Particle"
@@ -542,10 +542,10 @@ enum class ParticlePinDistance_t : uint32_t
 // Enumerator count: 7
 // Alignment: 4
 // Size: 0x4
-enum class VectorFloatExpressionType_t : uint32_t
+enum class VectorFloatExpressionType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Uninitialized"
-	VECTOR_FLOAT_EXPRESSION_UNINITIALIZED = 0xffffffffffffffff,
+	VECTOR_FLOAT_EXPRESSION_UNINITIALIZED = 0xffffffff,
 	// MPropertyFriendlyName "Dot Product"
 	VECTOR_FLOAT_EXPRESSION_DOTPRODUCT = 0x0,
 	// MPropertyFriendlyName "Distance Between"
@@ -564,7 +564,7 @@ enum class VectorFloatExpressionType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleFogType_t : uint32_t
+enum class ParticleFogType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Use Game Default"
 	PARTICLE_FOG_GAME_DEFAULT = 0x0,
@@ -578,10 +578,10 @@ enum class ParticleFogType_t : uint32_t
 // Enumerator count: 9
 // Alignment: 4
 // Size: 0x4
-enum class VectorExpressionType_t : uint32_t
+enum class VectorExpressionType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Uninitialized"
-	VECTOR_EXPRESSION_UNINITIALIZED = 0xffffffffffffffff,
+	VECTOR_EXPRESSION_UNINITIALIZED = 0xffffffff,
 	// MPropertyFriendlyName "Add"
 	VECTOR_EXPRESSION_ADD = 0x0,
 	// MPropertyFriendlyName "Subtract"
@@ -604,7 +604,7 @@ enum class VectorExpressionType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleRotationLockType_t : uint32_t
+enum class ParticleRotationLockType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Don't Set"
 	PARTICLE_ROTATION_LOCK_NONE = 0x0,
@@ -618,7 +618,7 @@ enum class ParticleRotationLockType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class HitboxLerpType_t : uint32_t
+enum class HitboxLerpType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Lerp from Start/End Time"
 	HITBOX_LERP_LIFETIME = 0x0,
@@ -630,7 +630,7 @@ enum class HitboxLerpType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class AnimationType_t : uint32_t
+enum class AnimationType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Fixed Rate"
 	ANIMATION_TYPE_FIXED_RATE = 0x0,
@@ -644,7 +644,7 @@ enum class AnimationType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleAttrBoxFlags_t : uint32_t
+enum class ParticleAttrBoxFlags_t : std::uint32_t
 {
 	// MPropertyFriendlyName "None"
 	PARTICLE_ATTR_BOX_FLAGS_NONE = 0x0,
@@ -656,7 +656,7 @@ enum class ParticleAttrBoxFlags_t : uint32_t
 // Enumerator count: 5
 // Alignment: 4
 // Size: 0x4
-enum class ParticleTopology_t : uint32_t
+enum class ParticleTopology_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Points"
 	PARTICLE_TOPOLOGY_POINTS = 0x0,
@@ -674,7 +674,7 @@ enum class ParticleTopology_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleLightBehaviorChoiceList_t : uint32_t
+enum class ParticleLightBehaviorChoiceList_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Follow Direction"
 	PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION = 0x0,
@@ -688,9 +688,9 @@ enum class ParticleLightBehaviorChoiceList_t : uint32_t
 // Enumerator count: 8
 // Alignment: 4
 // Size: 0x4
-enum class ParticleFloatMapType_t : uint32_t
+enum class ParticleFloatMapType_t : std::uint32_t
 {
-	PF_MAP_TYPE_INVALID = 0xffffffffffffffff,
+	PF_MAP_TYPE_INVALID = 0xffffffff,
 	PF_MAP_TYPE_DIRECT = 0x0,
 	PF_MAP_TYPE_MULT = 0x1,
 	PF_MAP_TYPE_REMAP = 0x2,
@@ -704,7 +704,7 @@ enum class ParticleFloatMapType_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class ParticleTraceSet_t : uint32_t
+enum class ParticleTraceSet_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Everything"
 	PARTICLE_TRACE_SET_ALL = 0x0,
@@ -720,7 +720,7 @@ enum class ParticleTraceSet_t : uint32_t
 // Enumerator count: 7
 // Alignment: 4
 // Size: 0x4
-enum class ParticleTextureLayerBlendType_t : uint32_t
+enum class ParticleTextureLayerBlendType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Multiply"
 	SPRITECARD_TEXTURE_BLEND_MULTIPLY = 0x0,
@@ -742,7 +742,7 @@ enum class ParticleTextureLayerBlendType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleSelection_t : uint32_t
+enum class ParticleSelection_t : std::uint32_t
 {
 	// MPropertyFriendlyName "First/Oldest Particle"
 	PARTICLE_SELECTION_FIRST = 0x0,
@@ -756,9 +756,9 @@ enum class ParticleSelection_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class ParticleFloatInputMode_t : uint32_t
+enum class ParticleFloatInputMode_t : std::uint32_t
 {
-	PF_INPUT_MODE_INVALID = 0xffffffffffffffff,
+	PF_INPUT_MODE_INVALID = 0xffffffff,
 	PF_INPUT_MODE_CLAMPED = 0x0,
 	PF_INPUT_MODE_LOOPED = 0x1,
 	PF_INPUT_MODE_COUNT = 0x2,
@@ -768,7 +768,7 @@ enum class ParticleFloatInputMode_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class SnapshotIndexType_t : uint32_t
+enum class SnapshotIndexType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Increment Index"
 	SNAPSHOT_INDEX_INCREMENT = 0x0,
@@ -780,7 +780,7 @@ enum class SnapshotIndexType_t : uint32_t
 // Enumerator count: 7
 // Alignment: 4
 // Size: 0x4
-enum class ParticleOutputBlendMode_t : uint32_t
+enum class ParticleOutputBlendMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Alpha Blend"
 	PARTICLE_OUTPUT_BLEND_MODE_ALPHA = 0x0,
@@ -802,7 +802,7 @@ enum class ParticleOutputBlendMode_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleLightnintBranchBehavior_t : uint32_t
+enum class ParticleLightnintBranchBehavior_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Branch Towards Current Direction"
 	PARTICLE_LIGHTNING_BRANCH_CURRENT_DIR = 0x0,
@@ -814,7 +814,7 @@ enum class ParticleLightnintBranchBehavior_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class MaterialProxyType_t : uint32_t
+enum class MaterialProxyType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Status Effect"
 	MATERIAL_PROXY_STATUS_EFFECT = 0x0,
@@ -826,7 +826,7 @@ enum class MaterialProxyType_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleDepthFeatheringMode_t : uint32_t
+enum class ParticleDepthFeatheringMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Off"
 	PARTICLE_DEPTH_FEATHERING_OFF = 0x0,
@@ -840,9 +840,9 @@ enum class ParticleDepthFeatheringMode_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class ParticleFloatRandomMode_t : uint32_t
+enum class ParticleFloatRandomMode_t : std::uint32_t
 {
-	PF_RANDOM_MODE_INVALID = 0xffffffffffffffff,
+	PF_RANDOM_MODE_INVALID = 0xffffffff,
 	PF_RANDOM_MODE_CONSTANT = 0x0,
 	PF_RANDOM_MODE_VARYING = 0x1,
 	PF_RANDOM_MODE_COUNT = 0x2,
@@ -852,7 +852,7 @@ enum class ParticleFloatRandomMode_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class PFNoiseModifier_t : uint32_t
+enum class PFNoiseModifier_t : std::uint32_t
 {
 	PF_NOISE_MODIFIER_NONE = 0x0,
 	PF_NOISE_MODIFIER_LINES = 0x1,
@@ -864,9 +864,9 @@ enum class PFNoiseModifier_t : uint32_t
 // Enumerator count: 19
 // Alignment: 4
 // Size: 0x4
-enum class ParticleVecType_t : uint32_t
+enum class ParticleVecType_t : std::uint32_t
 {
-	PVEC_TYPE_INVALID = 0xffffffffffffffff,
+	PVEC_TYPE_INVALID = 0xffffffff,
 	PVEC_TYPE_LITERAL = 0x0,
 	PVEC_TYPE_LITERAL_COLOR = 0x1,
 	PVEC_TYPE_NAMED_VALUE = 0x2,
@@ -891,7 +891,7 @@ enum class ParticleVecType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleLightUnitChoiceList_t : uint32_t
+enum class ParticleLightUnitChoiceList_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Candelas"
 	PARTICLE_LIGHT_UNIT_CANDELAS = 0x0,
@@ -903,7 +903,7 @@ enum class ParticleLightUnitChoiceList_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleFalloffFunction_t : uint32_t
+enum class ParticleFalloffFunction_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Constant - No Falloff"
 	PARTICLE_FALLOFF_CONSTANT = 0x0,
@@ -917,10 +917,10 @@ enum class ParticleFalloffFunction_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleSequenceCropOverride_t : uint32_t
+enum class ParticleSequenceCropOverride_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Use Default Cropping Behavior"
-	PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT = 0xffffffffffffffff,
+	PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT = 0xffffffff,
 	// MPropertyFriendlyName "Force Cropping Off"
 	PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_OFF = 0x0,
 	// MPropertyFriendlyName "Force Cropping On"
@@ -931,7 +931,7 @@ enum class ParticleSequenceCropOverride_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class ParticleDetailLevel_t : uint32_t
+enum class ParticleDetailLevel_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Low"
 	PARTICLEDETAIL_LOW = 0x0,
@@ -947,7 +947,7 @@ enum class ParticleDetailLevel_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class BBoxVolumeType_t : uint32_t
+enum class BBoxVolumeType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Bounding Box Volume"
 	BBOX_VOLUME = 0x0,
@@ -961,7 +961,7 @@ enum class BBoxVolumeType_t : uint32_t
 // Enumerator count: 10
 // Alignment: 4
 // Size: 0x4
-enum class SpriteCardTextureType_t : uint32_t
+enum class SpriteCardTextureType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Diffuse Texture"
 	SPRITECARD_TEXTURE_DIFFUSE = 0x0,
@@ -989,7 +989,7 @@ enum class SpriteCardTextureType_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class ParticleAlphaReferenceType_t : uint32_t
+enum class ParticleAlphaReferenceType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Texel Alpha & Particle Alpha & Alpha Reference"
 	PARTICLE_ALPHA_REFERENCE_ALPHA_ALPHA = 0x0,
@@ -1005,7 +1005,7 @@ enum class ParticleAlphaReferenceType_t : uint32_t
 // Enumerator count: 15
 // Alignment: 4
 // Size: 0x4
-enum class SpriteCardTextureChannel_t : uint32_t
+enum class SpriteCardTextureChannel_t : std::uint32_t
 {
 	// MPropertyFriendlyName "RGB"
 	SPRITECARD_TEXTURE_CHANNEL_MIX_RGB = 0x0,
@@ -1043,7 +1043,7 @@ enum class SpriteCardTextureChannel_t : uint32_t
 // Enumerator count: 5
 // Alignment: 4
 // Size: 0x4
-enum class ParticleTransformType_t : uint32_t
+enum class ParticleTransformType_t : std::uint32_t
 {
 	PT_TYPE_INVALID = 0x0,
 	PT_TYPE_NAMED_VALUE = 0x1,
@@ -1056,7 +1056,7 @@ enum class ParticleTransformType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleHitboxDataSelection_t : uint32_t
+enum class ParticleHitboxDataSelection_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Average Hitbox Speed"
 	PARTICLE_HITBOX_AVERAGE_SPEED = 0x0,
@@ -1068,7 +1068,7 @@ enum class ParticleHitboxDataSelection_t : uint32_t
 // Enumerator count: 6
 // Alignment: 4
 // Size: 0x4
-enum class ParticleOrientationChoiceList_t : uint32_t
+enum class ParticleOrientationChoiceList_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Screen Align"
 	PARTICLE_ORIENTATION_SCREEN_ALIGNED = 0x0,
@@ -1088,7 +1088,7 @@ enum class ParticleOrientationChoiceList_t : uint32_t
 // Enumerator count: 5
 // Alignment: 4
 // Size: 0x4
-enum class ParticleCollisionMode_t : uint32_t
+enum class ParticleCollisionMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Per-Particle Trace"
 	COLLISION_MODE_PER_PARTICLE_TRACE = 0x3,
@@ -1099,14 +1099,14 @@ enum class ParticleCollisionMode_t : uint32_t
 	// MPropertyFriendlyName "Initial Trace Down"
 	COLLISION_MODE_INITIAL_TRACE_DOWN = 0x0,
 	// MPropertyFriendlyName "Collision Disabled"
-	COLLISION_MODE_DISABLED = 0xffffffffffffffff,
+	COLLISION_MODE_DISABLED = 0xffffffff,
 };
 
 // Registered binary: particles.dll (project 'particles')
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleSortingChoiceList_t : uint32_t
+enum class ParticleSortingChoiceList_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Distance - Nearest"
 	PARTICLE_SORTING_NEAREST = 0x0,
@@ -1118,10 +1118,10 @@ enum class ParticleSortingChoiceList_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleEndcapMode_t : uint32_t
+enum class ParticleEndcapMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Always Enabled"
-	PARTICLE_ENDCAP_ALWAYS_ON = 0xffffffffffffffff,
+	PARTICLE_ENDCAP_ALWAYS_ON = 0xffffffff,
 	// MPropertyFriendlyName "Disabled During Endcap"
 	PARTICLE_ENDCAP_ENDCAP_OFF = 0x0,
 	// MPropertyFriendlyName "Only Enabled During Endcap"
@@ -1132,7 +1132,7 @@ enum class ParticleEndcapMode_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ClosestPointTestType_t : uint32_t
+enum class ClosestPointTestType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Box"
 	PARTICLE_CLOSEST_TYPE_BOX = 0x0,
@@ -1146,7 +1146,7 @@ enum class ClosestPointTestType_t : uint32_t
 // Enumerator count: 6
 // Alignment: 4
 // Size: 0x4
-enum class ParticleImpulseType_t : uint32_t
+enum class ParticleImpulseType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "None"
 	IMPULSE_TYPE_NONE = 0x0,
@@ -1166,7 +1166,7 @@ enum class ParticleImpulseType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class SpriteCardShaderType_t : uint32_t
+enum class SpriteCardShaderType_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Default"
 	SPRITECARD_SHADER_BASE = 0x0,
@@ -1178,7 +1178,7 @@ enum class SpriteCardShaderType_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleOmni2LightTypeChoiceList_t : uint32_t
+enum class ParticleOmni2LightTypeChoiceList_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Point"
 	PARTICLE_OMNI2_LIGHT_TYPE_POINT = 0x0,
@@ -1190,7 +1190,7 @@ enum class ParticleOmni2LightTypeChoiceList_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class ParticleLightFogLightingMode_t : uint32_t
+enum class ParticleLightFogLightingMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "None"
 	PARTICLE_LIGHT_FOG_LIGHTING_MODE_NONE = 0x0,
@@ -1204,7 +1204,7 @@ enum class ParticleLightFogLightingMode_t : uint32_t
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class ParticleLightTypeChoiceList_t : uint32_t
+enum class ParticleLightTypeChoiceList_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Omni Light"
 	PARTICLE_LIGHT_TYPE_POINT = 0x0,
@@ -1220,7 +1220,7 @@ enum class ParticleLightTypeChoiceList_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class ParticleOrientationSetMode_t : uint32_t
+enum class ParticleOrientationSetMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Set From Velocity"
 	PARTICLE_ORIENTATION_SET_FROM_VELOCITY = 0x0,
@@ -1232,7 +1232,7 @@ enum class ParticleOrientationSetMode_t : uint32_t
 // Enumerator count: 2
 // Alignment: 4
 // Size: 0x4
-enum class TextureRepetitionMode_t : uint32_t
+enum class TextureRepetitionMode_t : std::uint32_t
 {
 	// MPropertyFriendlyName "Per-Particle"
 	TEXTURE_REPETITION_PARTICLE = 0x0,
@@ -1240,6 +1240,10 @@ enum class TextureRepetitionMode_t : uint32_t
 	TEXTURE_REPETITION_PATH = 0x1,
 };
 
+struct CNewParticleEffect;
+struct IParticleCollection;
+struct PARTICLE_EHANDLE__;
+struct CParticleProperty;
 struct CPerParticleVecInput;
 struct ParticleAttributeIndex_t;
 struct CParticleCollectionVecInput;
@@ -1253,10 +1257,6 @@ struct CPathParameters;
 struct CParticleRemapFloatInput;
 struct CParticleModelInput;
 struct CParticleFloatInput;
-struct CNewParticleEffect;
-struct IParticleCollection;
-struct PARTICLE_EHANDLE__;
-struct CParticleProperty;
 struct ParticleNamedValueConfiguration_t;
 struct CParticleVisibilityInputs;
 struct ControlPointReference_t;
@@ -1280,6 +1280,31 @@ class CParticleCollectionBindingInstance : public CBasePulseGraphInstance
 public:
 };
 
+// Registered binary: particles.dll (project 'particleslib')
+// Alignment: 8
+// Size: 0x8
+// Has VTable
+// Is Abstract
+class IParticleEffect
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x8]; // 0x0
+public:
+	// No schema binary for binding
+};
+
+// Registered binary: particles.dll (project 'particleslib')
+// Alignment: 8
+// Size: 0x28
+// MNetworkNoBase
+class CParticleProperty
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x28]; // 0x0
+public:
+	// No schema binary for binding
+};
+
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x4
@@ -1292,7 +1317,7 @@ public:
 	int32_t m_Value; // 0x0	
 	
 	// Static fields:
-	static bool &Get_IS_TYPESAFE_INTEGER(){return *reinterpret_cast<bool*>(interfaces::g_schema->FindTypeScopeForModule("particles.dll")->FindDeclaredClass("ParticleAttributeIndex_t")->m_static_fields[0]->m_instance);};
+	static bool &Get_IS_TYPESAFE_INTEGER(){return *reinterpret_cast<bool*>(interfaces::g_schema->FindTypeScopeForModule("particles.dll")->FindDeclaredClass("ParticleAttributeIndex_t")->GetStaticFields()[0]->m_pInstance);};
 };
 
 // Registered binary: particles.dll (project 'particleslib')
@@ -1300,6 +1325,7 @@ public:
 // Size: 0x10
 // Has VTable
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleInput
@@ -1313,6 +1339,7 @@ public:
 // Alignment: 4
 // Size: 0x48
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleVisibilityInputs
@@ -1382,6 +1409,7 @@ public:
 // Alignment: 8
 // Size: 0x158
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 // MClassIsParticleFloat
@@ -1456,9 +1484,10 @@ public:
 // Alignment: 8
 // Size: 0x158
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "CollectionFloatInput()"
 class CParticleCollectionFloatInput : public CParticleFloatInput
 {
 public:
@@ -1469,6 +1498,7 @@ public:
 // Size: 0x4
 // Has Trivial Constructor
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct CollisionGroupContext_t
@@ -1481,9 +1511,10 @@ public:
 // Alignment: 8
 // Size: 0x68
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "TransformInput()"
 // MClassIsParticleTransform
 // MParticleCustomFieldDefaultValue
 class CParticleTransformInput : public CParticleInput
@@ -1510,6 +1541,7 @@ public:
 // Size: 0x1c0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunction
@@ -1598,6 +1630,7 @@ public:
 // Size: 0x1c0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunctionOperator : public CParticleFunction
@@ -1609,6 +1642,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_FadeOutSimple : public CParticleFunctionOperator
@@ -1626,6 +1660,7 @@ public:
 // Size: 0x1d0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunctionPreEmission : public CParticleFunctionOperator
@@ -1640,6 +1675,7 @@ public:
 // Size: 0x1c0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunctionInitializer : public CParticleFunction
@@ -1654,6 +1690,7 @@ public:
 // Size: 0x210
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunctionRenderer : public CParticleFunction
@@ -1674,6 +1711,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderSound : public CParticleFunctionRenderer
@@ -1715,6 +1753,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointsToParticle : public CParticleFunctionOperator
@@ -1743,6 +1782,7 @@ public:
 // Alignment: 16
 // Size: 0x4b0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapSDFDistanceToVectorAttribute : public CParticleFunctionOperator
@@ -1772,6 +1812,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapCPVelocityToVector : public CParticleFunctionOperator
@@ -1792,9 +1833,10 @@ public:
 // Alignment: 8
 // Size: 0x158
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "PerParticleFloatInput()"
 class CPerParticleFloatInput : public CParticleFloatInput
 {
 public:
@@ -1803,6 +1845,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x10
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ParticlePreviewBodyGroup_t
@@ -1816,6 +1859,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_OscillateScalarSimple : public CParticleFunctionOperator
@@ -1838,6 +1882,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_StatusEffect : public CParticleFunctionInitializer
@@ -1885,6 +1930,7 @@ public:
 // Alignment: 16
 // Size: 0x270
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RtEnvCull : public CParticleFunctionInitializer
@@ -1919,6 +1965,7 @@ public:
 // Size: 0x1c0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunctionConstraint : public CParticleFunction
@@ -1930,6 +1977,7 @@ public:
 // Alignment: 4
 // Size: 0x8
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CRandomNumberGeneratorParameters
@@ -1946,6 +1994,7 @@ public:
 // Alignment: 8
 // Size: 0x658
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 // MClassIsParticleVec
@@ -1987,6 +2036,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 16
 // Size: 0x20
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ParticleChildrenInfo_t
@@ -2011,6 +2061,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapScalarOnceTimed : public CParticleFunctionOperator
@@ -2044,6 +2095,7 @@ public:
 // Size: 0x1f0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomNamedModelElement : public CParticleFunctionInitializer
@@ -2070,6 +2122,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PlaneCull : public CParticleFunctionOperator
@@ -2093,9 +2146,10 @@ public:
 // Alignment: 8
 // Size: 0x658
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "PerParticleVecInput()"
 class CPerParticleVecInput : public CParticleVecInput
 {
 public:
@@ -2105,6 +2159,7 @@ public:
 // Alignment: 16
 // Size: 0x8b0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ModelDampenMovement : public CParticleFunctionOperator
@@ -2136,6 +2191,7 @@ public:
 // Size: 0x1d0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunctionForce : public CParticleFunction
@@ -2147,6 +2203,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_TeleportBeam : public CParticleFunctionOperator
@@ -2180,9 +2237,10 @@ public:
 // Alignment: 8
 // Size: 0x658
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "CollectionVecInput()"
 class CParticleCollectionVecInput : public CParticleVecInput
 {
 public:
@@ -2192,9 +2250,10 @@ public:
 // Alignment: 8
 // Size: 0x158
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "CollectionRendererFloatInput()"
 class CParticleCollectionRendererFloatInput : public CParticleCollectionFloatInput
 {
 public:
@@ -2205,6 +2264,7 @@ public:
 // Size: 0x1c0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CSpinUpdateBase : public CParticleFunctionOperator
@@ -2216,6 +2276,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_OrientTo2dDirection : public CParticleFunctionOperator
@@ -2234,6 +2295,7 @@ public:
 // Alignment: 16
 // Size: 0x740
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDotProductToCP : public CParticleFunctionPreEmission
@@ -2262,6 +2324,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapParticleCountToScalar : public CParticleFunctionInitializer
@@ -2302,9 +2365,10 @@ public:
 // Alignment: 8
 // Size: 0x658
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "CollectionRendererVecInput()"
 class CParticleCollectionRendererVecInput : public CParticleCollectionVecInput
 {
 public:
@@ -2314,6 +2378,7 @@ public:
 // Alignment: 16
 // Size: 0x270
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointPositionToTimeOfDayValue : public CParticleFunctionPreEmission
@@ -2331,6 +2396,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DecayMaintainCount : public CParticleFunctionOperator
@@ -2357,6 +2423,7 @@ public:
 // Alignment: 16
 // Size: 0x3d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomModelSequence : public CParticleFunctionInitializer
@@ -2376,6 +2443,7 @@ public:
 // Alignment: 16
 // Size: 0x890
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapGravityToVector : public CParticleFunctionOperator
@@ -2396,6 +2464,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ExternalGameImpulseForce : public CParticleFunctionForce
@@ -2417,6 +2486,7 @@ public:
 // Alignment: 16
 // Size: 0xe20
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapAverageHitboxSpeedtoCP : public CParticleFunctionPreEmission
@@ -2456,6 +2526,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomAlpha : public CParticleFunctionInitializer
@@ -2481,6 +2552,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_NormalizeVector : public CParticleFunctionOperator
@@ -2497,6 +2569,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_FadeInSimple : public CParticleFunctionOperator
@@ -2513,6 +2586,7 @@ public:
 // Alignment: 16
 // Size: 0x5f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RepeatedTriggerChildGroup : public CParticleFunctionPreEmission
@@ -2537,6 +2611,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderTonemapController : public CParticleFunctionRenderer
@@ -2558,6 +2633,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapVelocityToVector : public CParticleFunctionOperator
@@ -2576,6 +2652,7 @@ public:
 // Alignment: 16
 // Size: 0xa10
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_SetHitboxToClosest : public CParticleFunctionInitializer
@@ -2608,6 +2685,7 @@ public:
 // Alignment: 16
 // Size: 0xcf0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RingWave : public CParticleFunctionInitializer
@@ -2641,6 +2719,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomTrailLength : public CParticleFunctionInitializer
@@ -2658,6 +2737,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapScalar : public CParticleFunctionOperator
@@ -2685,6 +2765,7 @@ public:
 // Alignment: 16
 // Size: 0x890
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DistanceBetweenTransforms : public CParticleFunctionOperator
@@ -2729,6 +2810,7 @@ public:
 // Alignment: 16
 // Size: 0x320
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DecayOffscreen : public CParticleFunctionOperator
@@ -2742,6 +2824,7 @@ public:
 // Alignment: 16
 // Size: 0x40
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CPathParameters
@@ -2772,6 +2855,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_EndCapTimedDecay : public CParticleFunctionOperator
@@ -2786,6 +2870,7 @@ public:
 // Size: 0x1e0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDistanceToLineSegmentBase : public CParticleFunctionOperator
@@ -2808,6 +2893,7 @@ public:
 // Size: 0x1c0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleFunctionEmitter : public CParticleFunction
@@ -2821,6 +2907,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_OscillateVectorSimple : public CParticleFunctionOperator
@@ -2846,6 +2933,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_SequenceLifeTime : public CParticleFunctionInitializer
@@ -2859,6 +2947,7 @@ public:
 // Alignment: 16
 // Size: 0x880
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_MoveBetweenPoints : public CParticleFunctionInitializer
@@ -2884,6 +2973,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapScalar : public CParticleFunctionInitializer
@@ -2922,6 +3012,7 @@ public:
 // Alignment: 16
 // Size: 0x5e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetUserEvent : public CParticleFunctionOperator
@@ -2946,6 +3037,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_QuantizeFloat : public CParticleFunctionOperator
@@ -2976,6 +3068,7 @@ public:
 // Alignment: 16
 // Size: 0x980
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_BasicMovement : public CParticleFunctionOperator
@@ -2995,6 +3088,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomNamedModelSequence : public C_INIT_RandomNamedModelElement
@@ -3006,6 +3100,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitFromParentKilled : public CParticleFunctionInitializer
@@ -3022,6 +3117,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_Callback : public CParticleFunctionRenderer
@@ -3033,6 +3129,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapSpeedtoCP : public CParticleFunctionPreEmission
@@ -3061,6 +3158,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_GlobalLight : public CParticleFunctionOperator
@@ -3078,6 +3176,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_OffsetVectorToVector : public CParticleFunctionInitializer
@@ -3103,6 +3202,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetPerChildControlPointFromAttribute : public CParticleFunctionOperator
@@ -3135,6 +3235,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetParentControlPointsToChildCP : public CParticleFunctionPreEmission
@@ -3156,6 +3257,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SDFForce : public CParticleFunctionForce
@@ -3169,6 +3271,7 @@ public:
 // Alignment: 16
 // Size: 0xe80
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_BoxConstraint : public CParticleFunctionConstraint
@@ -3190,6 +3293,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreatePhyllotaxis : public CParticleFunctionInitializer
@@ -3230,6 +3334,7 @@ public:
 // Alignment: 16
 // Size: 0x510
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_AttractToControlPoint : public CParticleFunctionForce
@@ -3260,6 +3365,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomLifeTime : public CParticleFunctionInitializer
@@ -3279,6 +3385,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapParticleCountToNamedModelElementScalar : public C_INIT_RemapParticleCountToScalar
@@ -3296,6 +3403,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_VelocityRadialRandom : public CParticleFunctionInitializer
@@ -3320,6 +3428,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomRadius : public CParticleFunctionInitializer
@@ -3340,6 +3449,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_Orient2DRelToCP : public CParticleFunctionOperator
@@ -3359,6 +3469,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x988
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct TextureControls_t
@@ -3405,6 +3516,7 @@ public:
 // Alignment: 4
 // Size: 0x14
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ControlPointReference_t
@@ -3422,6 +3534,7 @@ public:
 // Alignment: 16
 // Size: 0xe90
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToVectorExpression : public CParticleFunctionPreEmission
@@ -3443,6 +3556,7 @@ public:
 // Alignment: 16
 // Size: 0x10b0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LightningSnapshotGenerator : public CParticleFunctionPreEmission
@@ -3491,6 +3605,7 @@ public:
 // Size: 0x220
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelElementOnceTimed : public CParticleFunctionOperator
@@ -3524,9 +3639,10 @@ public:
 // Alignment: 8
 // Size: 0x60
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "ModelInput()"
 // MClassIsParticleModel
 // MParticleCustomFieldDefaultValue
 class CParticleModelInput : public CParticleInput
@@ -3544,6 +3660,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapSpeedToScalar : public CParticleFunctionInitializer
@@ -3576,6 +3693,7 @@ public:
 // Alignment: 16
 // Size: 0x230
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapQAnglesToRotation : public CParticleFunctionInitializer
@@ -3589,6 +3707,7 @@ public:
 // Alignment: 16
 // Size: 0xe90
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_PositionWarp : public CParticleFunctionInitializer
@@ -3623,6 +3742,7 @@ public:
 // Alignment: 16
 // Size: 0x480
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SDFConstraint : public CParticleFunctionConstraint
@@ -3640,9 +3760,10 @@ public:
 // Alignment: 8
 // Size: 0x158
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "RemapFloatInput()"
 class CParticleRemapFloatInput : public CParticleFloatInput
 {
 public:
@@ -3652,6 +3773,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_TwistAroundAxis : public CParticleFunctionForce
@@ -3675,6 +3797,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomVectorComponent : public CParticleFunctionInitializer
@@ -3697,9 +3820,10 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
-// MParticleMaxVersion
-// MParticleReplacementOp
+// MParticleMaxVersion "8"
+// MParticleReplacementOp "C_OP_InheritFromParentParticlesV2"
 // MGetKV3ClassDefaults
 class C_OP_InheritFromParentParticles : public CParticleFunctionOperator
 {
@@ -3719,6 +3843,7 @@ public:
 // Alignment: 16
 // Size: 0xef0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_SetVectorAttributeToVectorExpression : public CParticleFunctionInitializer
@@ -3746,6 +3871,7 @@ public:
 // Alignment: 16
 // Size: 0x260
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapTransformVisibilityToVector : public CParticleFunctionOperator
@@ -3777,6 +3903,7 @@ public:
 // Alignment: 16
 // Size: 0xe80
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DirectionBetweenVecsToVec : public CParticleFunctionOperator
@@ -3798,6 +3925,7 @@ public:
 // Alignment: 16
 // Size: 0x980
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MovementLoopInsideSphere : public CParticleFunctionOperator
@@ -3821,6 +3949,7 @@ public:
 // Alignment: 16
 // Size: 0x2a0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderSimpleModelCollection : public CParticleFunctionRenderer
@@ -3856,6 +3985,7 @@ public:
 // Alignment: 16
 // Size: 0x490
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_QuantizeCPComponent : public CParticleFunctionPreEmission
@@ -3876,6 +4006,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PlayEndCapWhenFinished : public CParticleFunctionPreEmission
@@ -3891,6 +4022,7 @@ public:
 // Alignment: 16
 // Size: 0x320
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitFloatCollection : public CParticleFunctionInitializer
@@ -3907,9 +4039,10 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
-// MParticleMaxVersion
-// MParticleReplacementOp
+// MParticleMaxVersion "7"
+// MParticleReplacementOp "C_INIT_CreateSequentialPathV2"
 // MGetKV3ClassDefaults
 class C_INIT_CreateSequentialPath : public CParticleFunctionInitializer
 {
@@ -3934,6 +4067,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapScalarEndCap : public CParticleFunctionOperator
@@ -3959,6 +4093,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateFromPlaneCache : public CParticleFunctionInitializer
@@ -3981,6 +4116,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ControlPointToRadialScreenSpace : public CParticleFunctionPreEmission
@@ -4004,6 +4140,7 @@ public:
 // Alignment: 16
 // Size: 0x1c0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SpinUpdate : public CSpinUpdateBase
@@ -4015,6 +4152,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_NormalOffset : public CParticleFunctionInitializer
@@ -4038,6 +4176,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDistanceToLineSegmentToVector : public C_OP_RemapDistanceToLineSegmentBase
@@ -4056,6 +4195,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderAsModels : public CParticleFunctionRenderer
@@ -4094,6 +4234,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreationNoise : public CParticleFunctionInitializer
@@ -4131,6 +4272,7 @@ public:
 // Size: 0x1e0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CGeneralSpin : public CParticleFunctionOperator
@@ -4150,6 +4292,7 @@ public:
 // Registered binary: particles.dll (project 'particleslib')
 // Alignment: 8
 // Size: 0x38
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ParticleNamedValueConfiguration_t
@@ -4170,6 +4313,7 @@ public:
 // Alignment: 16
 // Size: 0xd80
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SpringToVectorConstraint : public CParticleFunctionConstraint
@@ -4191,6 +4335,7 @@ public:
 // Alignment: 16
 // Size: 0x5e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_InstantaneousEmitter : public CParticleFunctionEmitter
@@ -4218,6 +4363,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ConstrainLineLength : public CParticleFunctionConstraint
@@ -4233,6 +4379,7 @@ public:
 // Alignment: 16
 // Size: 0x280
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_LifespanFromVelocity : public CParticleFunctionInitializer
@@ -4268,6 +4415,7 @@ public:
 // Size: 0x2720
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CBaseRendererSource2 : public CParticleFunctionRenderer
@@ -4521,6 +4669,7 @@ public:
 // Alignment: 16
 // Size: 0x890
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_VelocityFromCP : public CParticleFunctionInitializer
@@ -4541,6 +4690,7 @@ public:
 // Alignment: 16
 // Size: 0x350
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointOrientation : public CParticleFunctionPreEmission
@@ -4574,6 +4724,7 @@ public:
 // Alignment: 16
 // Size: 0x890
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MovementSkinnedPositionFromCPSnapshot : public CParticleFunctionOperator
@@ -4619,6 +4770,7 @@ public:
 // Alignment: 16
 // Size: 0x610
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_OscillateVector : public CParticleFunctionOperator
@@ -4668,6 +4820,7 @@ public:
 // Alignment: 16
 // Size: 0xa10
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PositionLock : public CParticleFunctionOperator
@@ -4717,6 +4870,7 @@ public:
 // Alignment: 16
 // Size: 0x380
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderVRHapticEvent : public CParticleFunctionRenderer
@@ -4740,6 +4894,7 @@ public:
 // Alignment: 16
 // Size: 0x3e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToImpactPoint : public CParticleFunctionPreEmission
@@ -4779,6 +4934,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_InterpolateRadius : public CParticleFunctionOperator
@@ -4805,6 +4961,7 @@ public:
 // Alignment: 16
 // Size: 0x1960
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitialVelocityNoise : public CParticleFunctionInitializer
@@ -4840,6 +4997,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ReinitializeScalarEndCap : public CParticleFunctionOperator
@@ -4858,6 +5016,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_TurbulenceForce : public CParticleFunctionForce
@@ -4889,6 +5048,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelMeshGroupOnceTimed : public C_OP_RemapNamedModelElementOnceTimed
@@ -4900,6 +5060,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToPlayer : public CParticleFunctionPreEmission
@@ -4918,6 +5079,7 @@ public:
 // Alignment: 16
 // Size: 0x320
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_EndCapTimedFreeze : public CParticleFunctionOperator
@@ -4931,6 +5093,7 @@ public:
 // Alignment: 16
 // Size: 0x640
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderGpuImplicit : public CParticleFunctionRenderer
@@ -4963,23 +5126,11 @@ public:
 	CStrongHandle< InfoForResourceTypeIMaterial2 > m_hMaterial; // 0x630	
 };
 
-// Registered binary: particles.dll (project 'particleslib')
-// Alignment: 8
-// Size: 0x8
-// Has VTable
-// Is Abstract
-class IParticleEffect
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x8]; // 0x0
-public:
-	// No schema binary for binding
-};
-
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 16
 // Size: 0x4b0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetRandomControlPointPosition : public CParticleFunctionPreEmission
@@ -5013,6 +5164,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapTransformVisibilityToScalar : public CParticleFunctionOperator
@@ -5044,6 +5196,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapControlPointDirectionToVector : public CParticleFunctionOperator
@@ -5062,6 +5215,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_Decay : public CParticleFunctionOperator
@@ -5077,6 +5231,7 @@ public:
 // Alignment: 16
 // Size: 0xae0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DragRelativeToPlane : public CParticleFunctionOperator
@@ -5102,6 +5257,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetCPtoVector : public CParticleFunctionOperator
@@ -5117,6 +5273,7 @@ public:
 // Registered binary: particles.dll (project 'particleslib')
 // Alignment: 8
 // Size: 0x60
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ParticleNamedValueSource_t
@@ -5146,6 +5303,7 @@ public:
 // Size: 0x1e0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CGeneralRandomRotation : public CParticleFunctionInitializer
@@ -5170,6 +5328,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SnapshotRigidSkinToBones : public CParticleFunctionOperator
@@ -5190,6 +5349,7 @@ public:
 // Alignment: 16
 // Size: 0x8a0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetSingleControlPointPosition : public CParticleFunctionPreEmission
@@ -5213,6 +5373,7 @@ public:
 // Alignment: 16
 // Size: 0x320
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_DistanceToNeighborCull : public CParticleFunctionInitializer
@@ -5226,6 +5387,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapCPtoScalar : public CParticleFunctionOperator
@@ -5261,6 +5423,7 @@ public:
 // Alignment: 16
 // Size: 0x8b0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderDeferredLight : public CParticleFunctionRenderer
@@ -5324,6 +5487,7 @@ public:
 // Size: 0x8
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class IParticleSystemDefinition
@@ -5338,6 +5502,7 @@ public:
 // Size: 0x220
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelElementEndCap : public CParticleFunctionOperator
@@ -5367,6 +5532,7 @@ public:
 // Alignment: 16
 // Size: 0x2c0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PercentageBetweenTransformsVector : public CParticleFunctionOperator
@@ -5404,6 +5570,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MObsoleteParticleFunction
 // MGetKV3ClassDefaults
@@ -5420,6 +5587,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_UpdateLightSource : public CParticleFunctionOperator
@@ -5443,6 +5611,7 @@ public:
 // Alignment: 16
 // Size: 0xe80
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateWithinBox : public CParticleFunctionInitializer
@@ -5469,6 +5638,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ChooseRandomChildrenInGroup : public CParticleFunctionPreEmission
@@ -5487,6 +5657,7 @@ public:
 // Alignment: 16
 // Size: 0x6d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ControlpointLight : public CParticleFunctionOperator
@@ -5570,6 +5741,7 @@ public:
 // Alignment: 16
 // Size: 0x990
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_VectorFieldSnapshot : public CParticleFunctionOperator
@@ -5606,6 +5778,7 @@ public:
 // Alignment: 16
 // Size: 0x800
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CylindricalDistanceToTransform : public CParticleFunctionOperator
@@ -5643,6 +5816,7 @@ public:
 // Alignment: 16
 // Size: 0x520
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_PositionPlaceOnGround : public CParticleFunctionInitializer
@@ -5688,6 +5862,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomScalar : public CParticleFunctionInitializer
@@ -5708,6 +5883,7 @@ public:
 // Alignment: 16
 // Size: 0x380
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderPostProcessing : public CParticleFunctionRenderer
@@ -5726,6 +5902,7 @@ public:
 // Alignment: 16
 // Size: 0x950
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_WorldTraceConstraint : public CParticleFunctionConstraint
@@ -5813,6 +5990,7 @@ public:
 // Alignment: 16
 // Size: 0x840
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapExternalWindToCP : public CParticleFunctionPreEmission
@@ -5839,6 +6017,7 @@ public:
 // Alignment: 16
 // Size: 0x660
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderBlobs : public CParticleFunctionRenderer
@@ -5875,6 +6054,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_OscillateScalar : public CParticleFunctionOperator
@@ -5916,6 +6096,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_FadeOut : public CParticleFunctionOperator
@@ -5942,6 +6123,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomSequence : public CParticleFunctionInitializer
@@ -5968,6 +6150,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RampScalarSplineSimple : public CParticleFunctionOperator
@@ -5993,6 +6176,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_DistanceCull : public CParticleFunctionInitializer
@@ -6013,6 +6197,7 @@ public:
 // Alignment: 16
 // Size: 0x470
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CollideWithParentParticles : public CParticleFunctionConstraint
@@ -6028,6 +6213,7 @@ public:
 // Alignment: 16
 // Size: 0x830
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitFromVectorFieldSnapshot : public CParticleFunctionInitializer
@@ -6052,6 +6238,7 @@ public:
 // Alignment: 16
 // Size: 0xef0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetVectorAttributeToVectorExpression : public CParticleFunctionOperator
@@ -6079,6 +6266,7 @@ public:
 // Alignment: 16
 // Size: 0x980
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ParticlePhysics : public CParticleFunctionOperator
@@ -6098,6 +6286,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_AddVectorToVector : public CParticleFunctionInitializer
@@ -6123,6 +6312,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapInitialVisibilityScalar : public CParticleFunctionInitializer
@@ -6147,6 +6337,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapTransformOrientationToYaw : public CParticleFunctionOperator
@@ -6167,6 +6358,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderStatusEffect : public CParticleFunctionRenderer
@@ -6199,6 +6391,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RandomForce : public CParticleFunctionForce
@@ -6216,6 +6409,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapParticleCountOnScalarEndCap : public CParticleFunctionOperator
@@ -6244,6 +6438,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x68
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ParticlePreviewState_t
@@ -6277,6 +6472,7 @@ public:
 // Alignment: 16
 // Size: 0x830
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LocalAccelerationForce : public CParticleFunctionForce
@@ -6294,6 +6490,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ModelCull : public CParticleFunctionOperator
@@ -6315,6 +6512,7 @@ public:
 // Alignment: 16
 // Size: 0x4a0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetFloat : public CParticleFunctionOperator
@@ -6335,6 +6533,7 @@ public:
 // Alignment: 16
 // Size: 0x2e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapTransformToVector : public CParticleFunctionInitializer
@@ -6384,6 +6583,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SDFLighting : public CParticleFunctionOperator
@@ -6401,6 +6601,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDistanceToLineSegmentToScalar : public C_OP_RemapDistanceToLineSegmentBase
@@ -6419,6 +6620,7 @@ public:
 // Alignment: 16
 // Size: 0x5f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointFieldToScalarExpression : public CParticleFunctionPreEmission
@@ -6446,6 +6648,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapVectortoCP : public CParticleFunctionOperator
@@ -6464,6 +6667,7 @@ public:
 // Alignment: 16
 // Size: 0x5f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetFromCPSnapshot : public CParticleFunctionOperator
@@ -6504,6 +6708,7 @@ public:
 // Alignment: 16
 // Size: 0x290
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DistanceBetweenCPsToCP : public CParticleFunctionPreEmission
@@ -6551,6 +6756,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToHand : public CParticleFunctionPreEmission
@@ -6571,6 +6777,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ConstrainDistanceToPath : public CParticleFunctionConstraint
@@ -6599,6 +6806,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DistanceCull : public CParticleFunctionOperator
@@ -6619,6 +6827,7 @@ public:
 // Alignment: 16
 // Size: 0x9e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapSDFDistanceToScalarAttribute : public CParticleFunctionOperator
@@ -6648,6 +6857,7 @@ public:
 // Alignment: 16
 // Size: 0x230
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateAlongPath : public CParticleFunctionInitializer
@@ -6675,6 +6885,7 @@ public:
 // Alignment: 16
 // Size: 0x2d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointsToModelParticles : public CParticleFunctionOperator
@@ -6700,6 +6911,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ColorInterpolateRandom : public CParticleFunctionOperator
@@ -6731,6 +6943,7 @@ public:
 // Size: 0x210
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapNamedModelElementToScalar : public CParticleFunctionInitializer
@@ -6757,6 +6970,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MObsoleteParticleFunction
 // MGetKV3ClassDefaults
@@ -6770,6 +6984,7 @@ public:
 // Alignment: 16
 // Size: 0x320
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DecayClampCount : public CParticleFunctionOperator
@@ -6783,6 +6998,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomVector : public CParticleFunctionInitializer
@@ -6805,6 +7021,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_ColorLitPerParticle : public CParticleFunctionInitializer
@@ -6832,6 +7049,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MObsoleteParticleFunction
 // MGetKV3ClassDefaults
@@ -6861,6 +7079,7 @@ public:
 // Alignment: 16
 // Size: 0x600
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_SetAttributeToScalarExpression : public CParticleFunctionInitializer
@@ -6888,6 +7107,7 @@ public:
 // Alignment: 16
 // Size: 0x9e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateOnGrid : public CParticleFunctionInitializer
@@ -6919,6 +7139,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RampCPLinearRandom : public CParticleFunctionPreEmission
@@ -6936,6 +7157,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_VelocityMatchingForce : public CParticleFunctionOperator
@@ -6953,6 +7175,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomAlphaWindowThreshold : public CParticleFunctionInitializer
@@ -6970,6 +7193,7 @@ public:
 // Alignment: 16
 // Size: 0x1310
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateOnModelAtHeight : public CParticleFunctionInitializer
@@ -7018,9 +7242,10 @@ public:
 // Registered binary: particles.dll (project 'particleslib')
 // Alignment: 8
 // Size: 0x40
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
-// MPropertyCustomEditor
+// MPropertyCustomEditor "ParticleVariableRef()"
 class CParticleVariableRef
 {
 public:
@@ -7032,6 +7257,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RestartAfterDuration : public CParticleFunctionOperator
@@ -7056,6 +7282,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MObsoleteParticleFunction
 // MGetKV3ClassDefaults
@@ -7068,6 +7295,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapVisibilityScalar : public CParticleFunctionOperator
@@ -7095,8 +7323,9 @@ public:
 // Alignment: 16
 // Size: 0x4d0
 // Has VTable
+// Construct allowed
 // 
-// MParticleMinVersion
+// MParticleMinVersion "8"
 // MGetKV3ClassDefaults
 class C_INIT_CreateSequentialPathV2 : public CParticleFunctionInitializer
 {
@@ -7120,6 +7349,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x660
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct VecInputMaterialVariable_t
@@ -7135,6 +7365,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapInitialDirectionToTransformToVector : public CParticleFunctionInitializer
@@ -7160,8 +7391,9 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
-// MParticleMinVersion
+// MParticleMinVersion "8"
 // MGetKV3ClassDefaults
 class C_OP_LockToSavedSequentialPathV2 : public CParticleFunctionOperator
 {
@@ -7182,6 +7414,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_NormalLock : public CParticleFunctionOperator
@@ -7195,6 +7428,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapTransformOrientationToRotations : public CParticleFunctionInitializer
@@ -7214,6 +7448,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_Cull : public CParticleFunctionOperator
@@ -7233,6 +7468,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomYawFlip : public CParticleFunctionInitializer
@@ -7246,6 +7482,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapSDFGradientToVectorAttribute : public CParticleFunctionOperator
@@ -7260,6 +7497,7 @@ public:
 // Alignment: 4
 // Size: 0x8
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct SequenceWeightedList_t
@@ -7276,6 +7514,7 @@ public:
 // Alignment: 16
 // Size: 0x480
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ReadFromNeighboringParticle : public CParticleFunctionOperator
@@ -7302,6 +7541,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderText : public CParticleFunctionRenderer
@@ -7320,6 +7560,7 @@ public:
 // Alignment: 16
 // Size: 0xae0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LerpToInitialPosition : public CParticleFunctionOperator
@@ -7348,6 +7589,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomRotation : public CGeneralRandomRotation
@@ -7359,6 +7601,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LerpEndCapVector : public CParticleFunctionOperator
@@ -7378,6 +7621,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_VelocityDecay : public CParticleFunctionOperator
@@ -7391,6 +7635,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetCPOrientationToPointAtCP : public CParticleFunctionPreEmission
@@ -7414,6 +7659,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LockToPointList : public CParticleFunctionOperator
@@ -7442,6 +7688,7 @@ public:
 // Alignment: 16
 // Size: 0x3e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MovementPlaceOnGround : public CParticleFunctionOperator
@@ -7496,6 +7743,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetCPOrientationToDirection : public CParticleFunctionOperator
@@ -7511,6 +7759,7 @@ public:
 // Alignment: 16
 // Size: 0xe80
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapCrossProductOfTwoVectorsToVector : public CParticleFunctionOperator
@@ -7531,6 +7780,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapTransformOrientationToRotations : public CParticleFunctionOperator
@@ -7550,6 +7800,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomRotationSpeed : public CGeneralRandomRotation
@@ -7561,8 +7812,9 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
-// MParticleMinVersion
+// MParticleMinVersion "9"
 // MGetKV3ClassDefaults
 class C_OP_InheritFromParentParticlesV2 : public CParticleFunctionOperator
 {
@@ -7587,6 +7839,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomSecondSequence : public CParticleFunctionInitializer
@@ -7604,6 +7857,7 @@ public:
 // Alignment: 16
 // Size: 0x4a0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetFloatCollection : public CParticleFunctionOperator
@@ -7624,6 +7878,7 @@ public:
 // Alignment: 4
 // Size: 0x14
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct PointDefinition_t
@@ -7644,6 +7899,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointPositionToRandomActiveCP : public CParticleFunctionPreEmission
@@ -7666,6 +7922,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_Diffusion : public CParticleFunctionOperator
@@ -7684,6 +7941,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_AgeNoise : public CParticleFunctionInitializer
@@ -7715,6 +7973,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapVectorComponentToScalar : public CParticleFunctionOperator
@@ -7735,6 +7994,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomYaw : public CGeneralRandomRotation
@@ -7746,6 +8006,7 @@ public:
 // Alignment: 16
 // Size: 0x13e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DistanceBetweenVecs : public CParticleFunctionOperator
@@ -7779,6 +8040,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DampenToCP : public CParticleFunctionOperator
@@ -7796,6 +8058,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CalculateVectorAttribute : public CParticleFunctionOperator
@@ -7838,6 +8101,7 @@ public:
 // Alignment: 16
 // Size: 0x230
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapTransformToVelocity : public CParticleFunctionOperator
@@ -7851,6 +8115,7 @@ public:
 // Alignment: 16
 // Size: 0xae0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LockToBone : public CParticleFunctionOperator
@@ -7901,6 +8166,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelBodyPartOnceTimed : public C_OP_RemapNamedModelElementOnceTimed
@@ -7912,6 +8178,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MovementMaintainOffset : public CParticleFunctionOperator
@@ -7930,6 +8197,7 @@ public:
 // Alignment: 16
 // Size: 0x980
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetVec : public CParticleFunctionOperator
@@ -7952,6 +8220,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateFromParentParticles : public CParticleFunctionInitializer
@@ -8032,6 +8301,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomNamedModelBodyPart : public C_INIT_RandomNamedModelElement
@@ -8054,6 +8324,7 @@ public:
 // Alignment: 16
 // Size: 0x1200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderOmni2Light : public CParticleFunctionRenderer
@@ -8102,6 +8373,7 @@ public:
 // Alignment: 16
 // Size: 0x480
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ConnectParentParticleToNearest : public CParticleFunctionOperator
@@ -8128,6 +8400,7 @@ public:
 // Alignment: 16
 // Size: 0x320
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PointVectorAtNextParticle : public CParticleFunctionOperator
@@ -8147,6 +8420,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapParticleCountToNamedModelBodyPartScalar : public C_INIT_RemapParticleCountToNamedModelElementScalar
@@ -8158,6 +8432,7 @@ public:
 // Alignment: 16
 // Size: 0x350
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitSkinnedPositionFromCPSnapshot : public CParticleFunctionInitializer
@@ -8219,6 +8494,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LagCompensation : public CParticleFunctionOperator
@@ -8238,6 +8514,7 @@ public:
 // Alignment: 16
 // Size: 0x470
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CollideWithSelf : public CParticleFunctionConstraint
@@ -8253,6 +8530,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_Noise : public CParticleFunctionOperator
@@ -8280,6 +8558,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_FadeAndKillForTracers : public CParticleFunctionOperator
@@ -8303,6 +8582,7 @@ public:
 // Alignment: 16
 // Size: 0x5d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ColorAdjustHSL : public CParticleFunctionOperator
@@ -8320,6 +8600,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SequenceFromModel : public CParticleFunctionOperator
@@ -8349,6 +8630,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_AlphaDecay : public CParticleFunctionOperator
@@ -8362,6 +8644,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDensityGradientToVectorAttribute : public CParticleFunctionOperator
@@ -8378,6 +8661,7 @@ public:
 // Alignment: 16
 // Size: 0x830
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitVec : public CParticleFunctionInitializer
@@ -8401,6 +8685,7 @@ public:
 // Alignment: 16
 // Size: 0xa10
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_SetHitboxToModel : public CParticleFunctionInitializer
@@ -8437,6 +8722,7 @@ public:
 // Alignment: 16
 // Size: 0x480
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MovementMoveAlongSkinnedCPSnapshot : public CParticleFunctionOperator
@@ -8463,6 +8749,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LerpScalar : public CParticleFunctionOperator
@@ -8486,6 +8773,7 @@ public:
 // Alignment: 16
 // Size: 0x280
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitialRepulsionVelocity : public CParticleFunctionInitializer
@@ -8531,6 +8819,7 @@ public:
 // Alignment: 16
 // Size: 0x480
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ClampScalar : public CParticleFunctionOperator
@@ -8552,6 +8841,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToHMD : public CParticleFunctionPreEmission
@@ -8570,6 +8860,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DifferencePreviousParticle : public CParticleFunctionOperator
@@ -8601,6 +8892,7 @@ public:
 // Alignment: 16
 // Size: 0xff0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointFieldFromVectorExpression : public CParticleFunctionPreEmission
@@ -8628,6 +8920,7 @@ public:
 // Alignment: 16
 // Size: 0x2b0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PercentageBetweenTransforms : public CParticleFunctionOperator
@@ -8663,6 +8956,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_PlaneCull : public CParticleFunctionInitializer
@@ -8683,6 +8977,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelSequenceEndCap : public C_OP_RemapNamedModelElementEndCap
@@ -8694,6 +8989,7 @@ public:
 // Alignment: 16
 // Size: 0x2b90
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderRopes : public CBaseRendererSource2
@@ -8809,6 +9105,7 @@ public:
 // Alignment: 16
 // Size: 0x490
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitFromCPSnapshot : public CParticleFunctionInitializer
@@ -8845,6 +9142,7 @@ public:
 // Alignment: 16
 // Size: 0x1430
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderCables : public CParticleFunctionRenderer
@@ -8923,6 +9221,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InheritVelocity : public CParticleFunctionInitializer
@@ -8938,6 +9237,7 @@ public:
 // Alignment: 16
 // Size: 0x350
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToWaterSurface : public CParticleFunctionPreEmission
@@ -8968,6 +9268,7 @@ public:
 // Alignment: 16
 // Size: 0xef0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_PositionOffset : public CParticleFunctionInitializer
@@ -8996,6 +9297,7 @@ public:
 // Alignment: 16
 // Size: 0x230
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_NormalAlignToCP : public CParticleFunctionInitializer
@@ -9011,6 +9313,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ShapeMatchingConstraint : public CParticleFunctionConstraint
@@ -9024,6 +9327,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetChildControlPoints : public CParticleFunctionOperator
@@ -9050,6 +9354,7 @@ public:
 // Alignment: 16
 // Size: 0x13f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ChladniWave : public CParticleFunctionOperator
@@ -9085,6 +9390,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDirectionToCPToVector : public CParticleFunctionOperator
@@ -9116,6 +9422,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DriveCPFromGlobalSoundFloat : public CParticleFunctionPreEmission
@@ -9146,6 +9453,7 @@ public:
 // Alignment: 16
 // Size: 0x270
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RtEnvCull : public CParticleFunctionOperator
@@ -9177,6 +9485,7 @@ public:
 // Alignment: 16
 // Size: 0x1050
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PinParticleToCP : public CParticleFunctionOperator
@@ -9223,6 +9532,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapCPtoVector : public CParticleFunctionOperator
@@ -9265,6 +9575,7 @@ public:
 // Alignment: 16
 // Size: 0x5e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateParticleImpulse : public CParticleFunctionInitializer
@@ -9289,6 +9600,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DensityForce : public CParticleFunctionForce
@@ -9306,6 +9618,7 @@ public:
 // Alignment: 16
 // Size: 0x7a0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateInEpitrochoid : public CParticleFunctionInitializer
@@ -9339,6 +9652,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ConstrainDistanceToUserSpecifiedPath : public CParticleFunctionConstraint
@@ -9363,6 +9677,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointPositions : public CParticleFunctionPreEmission
@@ -9405,6 +9720,7 @@ public:
 // Alignment: 16
 // Size: 0xfe0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetFloatAttributeToVectorExpression : public CParticleFunctionOperator
@@ -9432,6 +9748,7 @@ public:
 // Alignment: 16
 // Size: 0x9e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MovementRotateParticleAroundAxis : public CParticleFunctionOperator
@@ -9452,6 +9769,7 @@ public:
 // Alignment: 16
 // Size: 0x480
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitFloat : public CParticleFunctionInitializer
@@ -9472,6 +9790,7 @@ public:
 // Alignment: 16
 // Size: 0x1130
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateOnModel : public CParticleFunctionInitializer
@@ -9519,6 +9838,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_InheritFromPeerSystem : public CParticleFunctionOperator
@@ -9540,6 +9860,7 @@ public:
 // Alignment: 16
 // Size: 0x990
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PerParticleForce : public CParticleFunctionForce
@@ -9558,6 +9879,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomNamedModelMeshGroup : public C_INIT_RandomNamedModelElement
@@ -9569,6 +9891,7 @@ public:
 // Alignment: 16
 // Size: 0xe40
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderProjected : public CParticleFunctionRenderer
@@ -9638,6 +9961,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MaxVelocity : public CParticleFunctionOperator
@@ -9657,6 +9981,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_VelocityFromNormal : public CParticleFunctionInitializer
@@ -9674,6 +9999,7 @@ public:
 // Alignment: 16
 // Size: 0x5e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MaintainEmitter : public CParticleFunctionEmitter
@@ -9707,6 +10033,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_PositionOffsetToCP : public CParticleFunctionInitializer
@@ -9724,6 +10051,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapInitialTransformDirectionToRotation : public CParticleFunctionInitializer
@@ -9746,6 +10074,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_FadeAndKill : public CParticleFunctionOperator
@@ -9782,6 +10111,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ColorInterpolate : public CParticleFunctionOperator
@@ -9807,6 +10137,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RampScalarSpline : public CParticleFunctionOperator
@@ -9842,6 +10173,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelSequenceOnceTimed : public C_OP_RemapNamedModelElementOnceTimed
@@ -9853,6 +10185,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointFromObjectScale : public CParticleFunctionPreEmission
@@ -9868,6 +10201,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MaintainSequentialPath : public CParticleFunctionOperator
@@ -9895,6 +10229,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelBodyPartEndCap : public C_OP_RemapNamedModelElementEndCap
@@ -9906,6 +10241,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_StopAfterCPDuration : public CParticleFunctionPreEmission
@@ -9923,6 +10259,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_Spin : public CGeneralSpin
@@ -9934,9 +10271,10 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
-// MParticleMaxVersion
-// MParticleReplacementOp
+// MParticleMaxVersion "7"
+// MParticleReplacementOp "C_OP_LockToSavedSequentialPathV2"
 // MGetKV3ClassDefaults
 class C_OP_LockToSavedSequentialPath : public CParticleFunctionOperator
 {
@@ -9959,6 +10297,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapNamedModelSequenceToScalar : public C_INIT_RemapNamedModelElementToScalar
@@ -9970,6 +10309,7 @@ public:
 // Alignment: 16
 // Size: 0xe80
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ClampVector : public CParticleFunctionOperator
@@ -9993,6 +10333,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderStatusEffectCitadel : public CParticleFunctionRenderer
@@ -10022,6 +10363,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapCPtoScalar : public CParticleFunctionInitializer
@@ -10057,6 +10399,7 @@ public:
 // Alignment: 16
 // Size: 0x3f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CParticleSystemDefinition : public IParticleSystemDefinition
@@ -10247,6 +10590,7 @@ public:
 // Size: 0x29f0
 // Has VTable
 // Is Abstract
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class CBaseTrailRenderer : public CBaseRendererSource2
@@ -10283,6 +10627,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_WindForce : public CParticleFunctionForce
@@ -10297,6 +10642,7 @@ public:
 // Alignment: 16
 // Size: 0xa40
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetVariable : public CParticleFunctionPreEmission
@@ -10327,6 +10673,7 @@ public:
 // Alignment: 16
 // Size: 0x1390
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderStandardLight : public CParticleFunctionRenderer
@@ -10439,6 +10786,7 @@ public:
 // Alignment: 16
 // Size: 0xe80
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_DistanceToTransform : public CParticleFunctionOperator
@@ -10490,6 +10838,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapControlPointOrientationToRotation : public CParticleFunctionOperator
@@ -10512,6 +10861,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToCenter : public CParticleFunctionPreEmission
@@ -10530,6 +10880,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapAverageScalarValuetoCP : public CParticleFunctionPreEmission
@@ -10557,6 +10908,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDotProductToScalar : public CParticleFunctionOperator
@@ -10594,6 +10946,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapCPtoCP : public CParticleFunctionPreEmission
@@ -10630,6 +10983,7 @@ public:
 // Alignment: 16
 // Size: 0x990
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointRotation : public CParticleFunctionPreEmission
@@ -10663,6 +11017,7 @@ public:
 // Alignment: 16
 // Size: 0x1df0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CurlNoiseForce : public CParticleFunctionForce
@@ -10695,6 +11050,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_Orient2DRelToCP : public CParticleFunctionInitializer
@@ -10713,6 +11069,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetSimulationRate : public CParticleFunctionPreEmission
@@ -10726,6 +11083,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_FadeIn : public CParticleFunctionOperator
@@ -10745,6 +11103,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderScreenShake : public CParticleFunctionRenderer
@@ -10778,6 +11137,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapBoundingVolumetoCP : public CParticleFunctionPreEmission
@@ -10799,6 +11159,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_HSVShiftToCP : public CParticleFunctionPreEmission
@@ -10818,6 +11179,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_GlobalScale : public CParticleFunctionInitializer
@@ -10841,6 +11203,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RadiusFromCPObject : public CParticleFunctionInitializer
@@ -10854,6 +11217,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitialVelocityFromHitbox : public CParticleFunctionInitializer
@@ -10875,6 +11239,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LerpVector : public CParticleFunctionOperator
@@ -10898,6 +11263,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointFieldToWater : public CParticleFunctionPreEmission
@@ -10915,6 +11281,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0xb18
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct TextureGroup_t
@@ -10958,6 +11325,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_TimeVaryingForce : public CParticleFunctionForce
@@ -10979,6 +11347,7 @@ public:
 // Alignment: 16
 // Size: 0x270
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetCPOrientationToGroundNormal : public CParticleFunctionOperator
@@ -11011,6 +11380,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SnapshotSkinToBones : public CParticleFunctionOperator
@@ -11039,6 +11409,7 @@ public:
 // Alignment: 16
 // Size: 0x1ac0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateWithinSphereTransform : public CParticleFunctionInitializer
@@ -11093,6 +11464,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RadiusDecay : public CParticleFunctionOperator
@@ -11106,6 +11478,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapNamedModelBodyPartToScalar : public C_INIT_RemapNamedModelElementToScalar
@@ -11117,6 +11490,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapScalarToVector : public CParticleFunctionInitializer
@@ -11159,6 +11533,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitialSequenceFromModel : public CParticleFunctionInitializer
@@ -11188,6 +11563,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_NoiseEmitter : public CParticleFunctionEmitter
@@ -11235,6 +11611,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_StatusEffectCitadel : public CParticleFunctionInitializer
@@ -11284,6 +11661,7 @@ public:
 // Alignment: 16
 // Size: 0x5e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SelectivelyEnableChildren : public CParticleFunctionPreEmission
@@ -11304,6 +11682,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x10
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ModelReference_t
@@ -11319,6 +11698,7 @@ public:
 // Alignment: 16
 // Size: 0x4a0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PlanarConstraint : public CParticleFunctionConstraint
@@ -11350,6 +11730,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateFromCPs : public CParticleFunctionInitializer
@@ -11373,6 +11754,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LockPoints : public CParticleFunctionOperator
@@ -11396,6 +11778,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_CreateSpiralSphere : public CParticleFunctionInitializer
@@ -11421,6 +11804,7 @@ public:
 // Alignment: 16
 // Size: 0x330
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CPVelocityForce : public CParticleFunctionForce
@@ -11439,6 +11823,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapNamedModelMeshGroupEndCap : public C_OP_RemapNamedModelElementEndCap
@@ -11450,6 +11835,7 @@ public:
 // Alignment: 16
 // Size: 0x820
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_ScaleVelocity : public CParticleFunctionInitializer
@@ -11464,6 +11850,7 @@ public:
 // Alignment: 16
 // Size: 0x480
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MoveToHitbox : public CParticleFunctionOperator
@@ -11499,6 +11886,7 @@ public:
 // Alignment: 16
 // Size: 0x1140
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_VelocityRandom : public CParticleFunctionInitializer
@@ -11532,6 +11920,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_PointList : public CParticleFunctionInitializer
@@ -11560,6 +11949,7 @@ public:
 // Alignment: 16
 // Size: 0x350
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LerpToOtherAttribute : public CParticleFunctionOperator
@@ -11582,6 +11972,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RandomColor : public CParticleFunctionInitializer
@@ -11616,6 +12007,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetGravityToCP : public CParticleFunctionPreEmission
@@ -11638,6 +12030,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapParticleCountToNamedModelSequenceScalar : public C_INIT_RemapParticleCountToNamedModelElementScalar
@@ -11649,6 +12042,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InheritFromParentParticles : public CParticleFunctionInitializer
@@ -11674,6 +12068,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RampScalarLinearSimple : public CParticleFunctionOperator
@@ -11697,6 +12092,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_ChaoticAttractor : public CParticleFunctionInitializer
@@ -11726,6 +12122,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_MovementRigidAttachToCP : public CParticleFunctionOperator
@@ -11752,6 +12149,7 @@ public:
 // Alignment: 16
 // Size: 0x220
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderFlattenGrass : public CParticleFunctionRenderer
@@ -11770,6 +12168,7 @@ public:
 // Alignment: 16
 // Size: 0xde0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderLightBeam : public CParticleFunctionRenderer
@@ -11803,6 +12202,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_EnableChildrenFromParentParticleCount : public CParticleFunctionPreEmission
@@ -11828,6 +12228,7 @@ public:
 // Alignment: 16
 // Size: 0x930
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_DistanceToCPInit : public CParticleFunctionInitializer
@@ -11882,6 +12283,7 @@ public:
 // Alignment: 16
 // Size: 0x1c0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_EndCapDecay : public CParticleFunctionOperator
@@ -11893,6 +12295,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ForceBasedOnDistanceToPlane : public CParticleFunctionForce
@@ -11921,6 +12324,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapDensityToVector : public CParticleFunctionOperator
@@ -11951,6 +12355,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x88
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ParticleControlPointConfiguration_t
@@ -11965,6 +12370,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_SetRigidAttachment : public CParticleFunctionInitializer
@@ -11985,6 +12391,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x10
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct MaterialVariable_t
@@ -12003,6 +12410,7 @@ public:
 // Alignment: 16
 // Size: 0x490
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ConstrainDistance : public CParticleFunctionConstraint
@@ -12025,6 +12433,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapSpeed : public CParticleFunctionOperator
@@ -12051,6 +12460,7 @@ public:
 // Alignment: 16
 // Size: 0x28d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderModels : public CParticleFunctionRenderer
@@ -12260,6 +12670,7 @@ public:
 // Alignment: 16
 // Size: 0x5f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ContinuousEmitter : public CParticleFunctionEmitter
@@ -12298,6 +12709,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapNamedModelMeshGroupToScalar : public C_INIT_RemapNamedModelElementToScalar
@@ -12309,6 +12721,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointOrientationToCPVelocity : public CParticleFunctionPreEmission
@@ -12324,6 +12737,7 @@ public:
 // Alignment: 16
 // Size: 0x730
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RopeSpringConstraint : public CParticleFunctionConstraint
@@ -12348,6 +12762,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_PositionWarpScalar : public CParticleFunctionInitializer
@@ -12373,6 +12788,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ForceControlPointStub : public CParticleFunctionPreEmission
@@ -12386,6 +12802,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_VectorNoise : public CParticleFunctionOperator
@@ -12430,6 +12847,7 @@ public:
 // Alignment: 16
 // Size: 0x730
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapParticleCountToScalar : public CParticleFunctionOperator
@@ -12462,6 +12880,7 @@ public:
 // Alignment: 16
 // Size: 0x320
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_QuantizeFloat : public CParticleFunctionInitializer
@@ -12478,6 +12897,7 @@ public:
 // Alignment: 16
 // Size: 0x200
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RemapModelVolumetoCP : public CParticleFunctionPreEmission
@@ -12514,6 +12934,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetToCP : public CParticleFunctionOperator
@@ -12530,6 +12951,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x30
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ParticleControlPointDriver_t
@@ -12547,6 +12969,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ParentVortices : public CParticleFunctionForce
@@ -12565,6 +12988,7 @@ public:
 // Alignment: 16
 // Size: 0x840
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetControlPointToCPVelocity : public CParticleFunctionPreEmission
@@ -12595,6 +13019,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SpinYaw : public CGeneralSpin
@@ -12606,6 +13031,7 @@ public:
 // Alignment: 4
 // Size: 0x18
 // Has Trivial Destructor
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct PointDefinitionWithTimeValues_t : public PointDefinition_t
@@ -12618,6 +13044,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x8
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct RenderProjectedMaterial_t
@@ -12631,6 +13058,7 @@ public:
 // Alignment: 16
 // Size: 0x1df0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_ExternalWindForce : public CParticleFunctionForce
@@ -12676,6 +13104,7 @@ public:
 // Alignment: 16
 // Size: 0x250
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_ModelCull : public CParticleFunctionInitializer
@@ -12697,6 +13126,7 @@ public:
 // Alignment: 16
 // Size: 0x3240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderSprites : public CBaseRendererSource2
@@ -12828,6 +13258,7 @@ public:
 // Alignment: 16
 // Size: 0x2c0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_PercentageBetweenTransformLerpCPs : public CParticleFunctionOperator
@@ -12867,6 +13298,7 @@ public:
 // Alignment: 16
 // Size: 0x490
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetPerChildControlPoint : public CParticleFunctionOperator
@@ -12901,6 +13333,7 @@ public:
 // Alignment: 16
 // Size: 0x240
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderTreeShake : public CParticleFunctionRenderer
@@ -12934,6 +13367,7 @@ public:
 // Alignment: 16
 // Size: 0x1c0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_WorldCollideConstraint : public CParticleFunctionConstraint
@@ -12945,6 +13379,7 @@ public:
 // Alignment: 16
 // Size: 0x600
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_SetAttributeToScalarExpression : public CParticleFunctionOperator
@@ -12972,6 +13407,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CycleScalar : public CParticleFunctionOperator
@@ -13009,6 +13445,7 @@ public:
 // Alignment: 16
 // Size: 0xb60
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderMaterialProxy : public CParticleFunctionRenderer
@@ -13036,6 +13473,7 @@ public:
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x160
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct FloatInputMaterialVariable_t
@@ -13051,6 +13489,7 @@ public:
 // Alignment: 16
 // Size: 0x3c40
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RenderTrails : public CBaseTrailRenderer
@@ -13125,6 +13564,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RampScalarLinear : public CParticleFunctionOperator
@@ -13156,6 +13596,7 @@ public:
 // Alignment: 16
 // Size: 0x340
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_RotateVector : public CParticleFunctionOperator
@@ -13187,6 +13628,7 @@ public:
 // Alignment: 16
 // Size: 0x820
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_InitVecCollection : public CParticleFunctionInitializer
@@ -13203,6 +13645,7 @@ public:
 // Alignment: 16
 // Size: 0x210
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_RemapParticleCountToNamedModelMeshGroupScalar : public C_INIT_RemapParticleCountToNamedModelElementScalar
@@ -13214,6 +13657,7 @@ public:
 // Alignment: 16
 // Size: 0x1e0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_INIT_SequenceFromCP : public CParticleFunctionInitializer
@@ -13237,6 +13681,7 @@ public:
 // Alignment: 16
 // Size: 0x1f0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_CPOffsetToPercentageBetweenCPs : public CParticleFunctionOperator
@@ -13274,6 +13719,7 @@ public:
 // Alignment: 16
 // Size: 0x1d0
 // Has VTable
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 class C_OP_LerpEndCapScalar : public CParticleFunctionOperator
@@ -13286,16 +13732,5 @@ public:
 	float m_flOutput; // 0x1c4	
 	// MPropertyFriendlyName "lerp time"
 	float m_flLerpTime; // 0x1c8	
-};
-
-// Registered binary: particles.dll (project 'particleslib')
-// Alignment: 8
-// Size: 0x28
-class CParticleProperty
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x28]; // 0x0
-public:
-	// No schema binary for binding
 };
 

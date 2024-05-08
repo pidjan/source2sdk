@@ -4,40 +4,206 @@
 
 // /////////////////////////////////////////////////////////////
 // Binary: resourcesystem.dll
-// Classes count: 0 (Allocated) | 58 (Unallocated)
-// Enums count: 0 (Allocated) | 2 (Unallocated)
+// Classes count: 0 (Allocated) | 48 (Unallocated)
+// Enums count: 0 (Allocated) | 0 (Unallocated)
 // Created using source2gen - github.com/neverlosecc/source2gen
 // /////////////////////////////////////////////////////////////
 
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Enumerator count: 9
-// Alignment: 1
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
 // Size: 0x1
-enum class FuseVariableType_t : uint8_t
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vmat"
+class InfoForResourceTypeIMaterial2
 {
-	INVALID = 0x0,
-	BOOL = 0x1,
-	INT8 = 0x2,
-	INT16 = 0x3,
-	INT32 = 0x4,
-	UINT8 = 0x5,
-	UINT16 = 0x6,
-	UINT32 = 0x7,
-	FLOAT32 = 0x8,
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
 };
 
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Enumerator count: 2
-// Alignment: 1
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
 // Size: 0x1
-enum class FuseVariableAccess_t : uint8_t
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vagrp"
+class InfoForResourceTypeCAnimationGroup
 {
-	WRITABLE = 0x0,
-	READ_ONLY = 0x1,
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
 };
 
-struct FuseVariableIndex_t;
-struct FuseFunctionIndex_t;
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vpost"
+class InfoForResourceTypeCPostProcessingResource
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vanim"
+class InfoForResourceTypeCAnimData
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vmdl"
+class InfoForResourceTypeCModel
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vpcf"
+class InfoForResourceTypeIParticleSystemDefinition
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vmesh"
+class InfoForResourceTypeCRenderMesh
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vnmgraphvnmclip"
+class InfoForResourceTypeCNmGraphDefinition
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vnmskel"
+class InfoForResourceTypeCNmSkeleton
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vseq"
+class InfoForResourceTypeCSequenceGroupData
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vtex"
+class InfoForResourceTypeCTextureBase
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vphys"
+class InfoForResourceTypeCPhysAggregateData
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vpulse"
+class InfoForResourceTypeIPulseGraphDef
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vsnap"
+class InfoForResourceTypeIParticleSnapshot
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
 
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
 // Alignment: 8
@@ -109,18 +275,6 @@ private:
 public:
 };
 
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x8
-// Has Trivial Constructor
-// Has Trivial Destructor
-struct PackedAABB_t
-{
-public:
-	uint32_t m_nPackedMin; // 0x0	
-	uint32_t m_nPackedMax; // 0x4	
-};
-
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
 // Alignment: 8
 // Size: 0x1
@@ -149,41 +303,13 @@ private:
 public:
 };
 
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x10
-// 
-// MGetKV3ClassDefaults
-struct ConstantInfo_t
-{
-public:
-	CUtlString m_name; // 0x0	
-	CUtlStringToken m_nameToken; // 0x8	
-	float m_flValue; // 0xc	
-};
-
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x2
-// Has Trivial Destructor
-// 
-// MIsBoxedIntegerType
-struct FuseFunctionIndex_t
-{
-public:
-	uint16_t m_Value; // 0x0	
-	
-	// Static fields:
-	static bool &Get_IS_TYPESAFE_INTEGER(){return *reinterpret_cast<bool*>(interfaces::g_schema->FindTypeScopeForModule("resourcesystem.dll")->FindDeclaredClass("FuseFunctionIndex_t")->m_static_fields[0]->m_instance);};
-};
-
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
 // Alignment: 8
 // Size: 0x1
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vgcxdata"
+// MResourceTypeForInfoType "vgcxdata€"
 class InfoForResourceTypeCGcExportableExternalData
 {
 private:
@@ -219,36 +345,6 @@ private:
 public:
 };
 
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0xb0
-// 
-// MGetKV3ClassDefaults
-class CFuseSymbolTable
-{
-public:
-	CUtlVector< ConstantInfo_t > m_constants; // 0x0	
-	CUtlVector< VariableInfo_t > m_variables; // 0x18	
-	CUtlVector< FunctionInfo_t > m_functions; // 0x30	
-	CUtlHashtable< CUtlStringToken, int32 > m_constantMap; // 0x48	
-	CUtlHashtable< CUtlStringToken, int32 > m_variableMap; // 0x68	
-	CUtlHashtable< CUtlStringToken, int32 > m_functionMap; // 0x88	
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vmesh"
-class InfoForResourceTypeCRenderMesh
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
 // Alignment: 8
 // Size: 0x1
@@ -266,6 +362,7 @@ public:
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
 // Alignment: 8
 // Size: 0x8
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct TestResource_t
@@ -273,20 +370,6 @@ struct TestResource_t
 public:
 	// MKV3TransferName "name"
 	CUtlString m_name; // 0x0	
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vphys"
-class InfoForResourceTypeCPhysAggregateData
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
 };
 
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
@@ -331,75 +414,6 @@ private:
 public:
 };
 
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x18
-// Has Trivial Constructor
-// Has Trivial Destructor
-struct AABB_t
-{
-public:
-	Vector m_vMinBounds; // 0x0	
-	Vector m_vMaxBounds; // 0xc	
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vpost"
-class InfoForResourceTypeCPostProcessingResource
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x2
-// Has Trivial Destructor
-// 
-// MIsBoxedIntegerType
-struct FuseVariableIndex_t
-{
-public:
-	uint16_t m_Value; // 0x0	
-	
-	// Static fields:
-	static bool &Get_IS_TYPESAFE_INTEGER(){return *reinterpret_cast<bool*>(interfaces::g_schema->FindTypeScopeForModule("resourcesystem.dll")->FindDeclaredClass("FuseVariableIndex_t")->m_static_fields[0]->m_instance);};
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vsnap"
-class InfoForResourceTypeIParticleSnapshot
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x40
-// Has Trivial Constructor
-// Has Trivial Destructor
-class FourQuaternions
-{
-public:
-	fltx4 x; // 0x0	
-	fltx4 y; // 0x10	
-	fltx4 z; // 0x20	
-	fltx4 w; // 0x30	
-};
-
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
 // Alignment: 8
 // Size: 0x1
@@ -434,36 +448,8 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vnmskel"
-class InfoForResourceTypeCNmSkeleton
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
 // MResourceTypeForInfoType "vtest"
 struct InfoForResourceTypeTestResource_t
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vagrp"
-class InfoForResourceTypeCAnimationGroup
 {
 private:
 	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
@@ -560,40 +546,12 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vnmgraphvnmclip"
-class InfoForResourceTypeCNmGraphDefinition
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
 // MResourceTypeForInfoType "vsmart"
 class InfoForResourceTypeCSmartProp
 {
 private:
 	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
 public:
-};
-
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x50
-// 
-// MGetKV3ClassDefaults
-class CFuseProgram
-{
-public:
-	CUtlVector< uint8 > m_programBuffer; // 0x0	
-	CUtlVector< FuseVariableIndex_t > m_variablesRead; // 0x18	
-	CUtlVector< FuseVariableIndex_t > m_variablesWritten; // 0x30	
-	int32_t m_nMaxTempVarsUsed; // 0x48	
 };
 
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
@@ -618,34 +576,6 @@ public:
 // 
 // MResourceTypeForInfoType "vmix"
 class InfoForResourceTypeCVMixListResource
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vanim"
-class InfoForResourceTypeCAnimData
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vmat"
-class InfoForResourceTypeIMaterial2
 {
 private:
 	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
@@ -686,53 +616,8 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vpulse"
-class InfoForResourceTypeIPulseGraphDef
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x20
-// 
-// MGetKV3ClassDefaults
-struct FunctionInfo_t
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x8]; // 0x0
-public:
-	CUtlString m_name; // 0x8	
-	CUtlStringToken m_nameToken; // 0x10	
-	int32_t m_nParamCount; // 0x14	
-	FuseFunctionIndex_t m_nIndex; // 0x18	
-	bool m_bIsPure; // 0x1a	
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
 // MResourceTypeForInfoType "vdata"
 class InfoForResourceTypeCVDataResource
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vmdl"
-class InfoForResourceTypeCModel
 {
 private:
 	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
@@ -755,65 +640,8 @@ public:
 
 // Registered binary: resourcesystem.dll (project 'resourcesystem')
 // Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vtex"
-class InfoForResourceTypeCTextureBase
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'mathlib_extended')
-// Alignment: 8
-// Size: 0x18
-// 
-// MGetKV3ClassDefaults
-struct VariableInfo_t
-{
-public:
-	CUtlString m_name; // 0x0	
-	CUtlStringToken m_nameToken; // 0x8	
-	FuseVariableIndex_t m_nIndex; // 0xc	
-	uint8_t m_nNumComponents; // 0xe	
-	FuseVariableType_t m_eVarType; // 0xf	
-	FuseVariableAccess_t m_eAccess; // 0x10	
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vpcf"
-class InfoForResourceTypeIParticleSystemDefinition
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vseq"
-class InfoForResourceTypeCSequenceGroupData
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
 // Size: 0x10
+// Construct allowed
 // 
 // MGetKV3ClassDefaults
 struct ManifestTestResource_t

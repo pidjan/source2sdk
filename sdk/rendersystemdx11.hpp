@@ -13,7 +13,7 @@
 // Enumerator count: 13
 // Alignment: 4
 // Size: 0x4
-enum class RenderPrimitiveType_t : uint32_t
+enum class RenderPrimitiveType_t : std::uint32_t
 {
 	RENDER_PRIM_POINTS = 0x0,
 	RENDER_PRIM_LINES = 0x1,
@@ -34,7 +34,7 @@ enum class RenderPrimitiveType_t : uint32_t
 // Enumerator count: 12
 // Alignment: 4
 // Size: 0x4
-enum class RenderBufferFlags_t : uint32_t
+enum class RenderBufferFlags_t : std::uint32_t
 {
 	RENDER_BUFFER_USAGE_VERTEX_BUFFER = 0x1,
 	RENDER_BUFFER_USAGE_INDEX_BUFFER = 0x2,
@@ -54,23 +54,23 @@ enum class RenderBufferFlags_t : uint32_t
 // Enumerator count: 8
 // Alignment: 1
 // Size: 0x1
-enum class RenderMultisampleType_t : uint8_t
+enum class RenderMultisampleType_t : std::uint8_t
 {
-	RENDER_MULTISAMPLE_INVALID = 0xffffffffffffffff,
-	RENDER_MULTISAMPLE_NONE = 0x0,
-	RENDER_MULTISAMPLE_2X = 0x1,
-	RENDER_MULTISAMPLE_4X = 0x2,
-	RENDER_MULTISAMPLE_6X = 0x3,
-	RENDER_MULTISAMPLE_8X = 0x4,
-	RENDER_MULTISAMPLE_16X = 0x5,
-	RENDER_MULTISAMPLE_TYPE_COUNT = 0x6,
+	RENDER_MULTISAMPLE_INVALID = 255,
+	RENDER_MULTISAMPLE_NONE = 0,
+	RENDER_MULTISAMPLE_2X = 1,
+	RENDER_MULTISAMPLE_4X = 2,
+	RENDER_MULTISAMPLE_6X = 3,
+	RENDER_MULTISAMPLE_8X = 4,
+	RENDER_MULTISAMPLE_16X = 5,
+	RENDER_MULTISAMPLE_TYPE_COUNT = 6,
 };
 
 // Registered binary: rendersystemdx11.dll (project 'rendersystemdx11')
 // Enumerator count: 4
 // Alignment: 4
 // Size: 0x4
-enum class InputLayoutVariation_t : uint32_t
+enum class InputLayoutVariation_t : std::uint32_t
 {
 	INPUT_LAYOUT_VARIATION_DEFAULT = 0x0,
 	INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID = 0x1,
@@ -82,9 +82,9 @@ enum class InputLayoutVariation_t : uint32_t
 // Enumerator count: 3
 // Alignment: 4
 // Size: 0x4
-enum class RenderSlotType_t : uint32_t
+enum class RenderSlotType_t : std::uint32_t
 {
-	RENDER_SLOT_INVALID = 0xffffffffffffffff,
+	RENDER_SLOT_INVALID = 0xffffffff,
 	RENDER_SLOT_PER_VERTEX = 0x0,
 	RENDER_SLOT_PER_INSTANCE = 0x1,
 };
