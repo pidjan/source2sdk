@@ -127,6 +127,20 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
+// MResourceTypeForInfoType "vanmgrpheconitemÄiù°¯"
+class InfoForResourceTypeIAnimGraphModelBinding
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
 // MResourceTypeForInfoType "vnmskel"
 class InfoForResourceTypeCNmSkeleton
 {
@@ -157,6 +171,20 @@ public:
 // 
 // MResourceTypeForInfoType "vtex"
 class InfoForResourceTypeCTextureBase
+{
+private:
+	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
+public:
+};
+
+// Registered binary: resourcesystem.dll (project 'resourcesystem')
+// Alignment: 8
+// Size: 0x1
+// Has Trivial Constructor
+// Has Trivial Destructor
+// 
+// MResourceTypeForInfoType "vsndevts"
+class InfoForResourceTypeCVSoundEventScriptList
 {
 private:
 	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
@@ -309,22 +337,8 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vgcxdataÄ"
+// MResourceTypeForInfoType "vgcxdata"
 class InfoForResourceTypeCGcExportableExternalData
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MResourceTypeForInfoType "vanmgrpheconitemvents"
-class InfoForResourceTypeIAnimGraphModelBinding
 {
 private:
 	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
@@ -462,20 +476,6 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vsndevts"
-class InfoForResourceTypeCVSoundEventScriptList
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: resourcesystem.dll (project 'resourcesystem')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
 // MResourceTypeForInfoType "vsnd"
 class InfoForResourceTypeCVoiceContainerBase
 {
@@ -532,7 +532,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "econitemvents"
+// MResourceTypeForInfoType "econitemÄiù°¯"
 class InfoForResourceTypeCCSGOEconItem
 {
 private:
@@ -560,7 +560,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vcompmat"
+// MResourceTypeForInfoType "vcompmat–où°¯"
 class InfoForResourceTypeCCompositeMaterialKit
 {
 private:
