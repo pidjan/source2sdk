@@ -13,6 +13,7 @@ This repository contains the generated Source 2 SDKs for various games. Each gam
 - `artifact-foundry` - Artifact Foundry
 - `sbox` - S&Box
 - `underlords` - Dota Underlords
+- `deadlock` - Deadlock (Citadel)
 
 To access the SDK for a specific game, switch to the corresponding branch:
 
