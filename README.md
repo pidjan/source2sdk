@@ -6,9 +6,14 @@ This repository contains the generated Source 2 SDKs for various games. Each gam
 
 ## Available Branches
 
-- `csgo` - Counter-Strike: Global Offensive
+- `csgo` - Counter-Strike: Global Offensive (Counter-Strike 2)
 - `dota` - Dota 2
 - `hlvr` - Half-Life: Alyx
+- `artifact-classic` - Artifact
+- `artifact-foundry` - Artifact Foundry
+- `sbox` - S&Box
+- `underlords` - Dota Underlords
+- `deadlock` - Deadlock (Citadel)
 
 To access the SDK for a specific game, switch to the corresponding branch:
 
