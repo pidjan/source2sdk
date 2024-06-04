@@ -4,7 +4,7 @@
 
 // /////////////////////////////////////////////////////////////
 // Binary: !GlobalTypes
-// Classes count: 1,444 (Allocated) | 1,444 (Unallocated)
+// Classes count: 1,442 (Allocated) | 1,442 (Unallocated)
 // Enums count: 342 (Allocated) | 342 (Unallocated)
 // Created using source2gen - github.com/neverlosecc/source2gen
 // /////////////////////////////////////////////////////////////
@@ -1933,7 +1933,7 @@ enum class ParticleFogType_t : uint32_t
 };
 
 // Registered binary: server.dll (project 'server')
-// Enumerator count: 15
+// Enumerator count: 9
 // Alignment: 4
 // Size: 0x4
 enum class BloodType : uint32_t
@@ -1942,17 +1942,11 @@ enum class BloodType : uint32_t
 	ColorRed = 0x0,
 	ColorYellow = 0x1,
 	ColorGreen = 0x2,
-	ColorBrightGreen = 0x3,
-	EntityMech = 0x4,
-	EntityAntlion = 0x5,
-	EntityZombie = 0x6,
-	EntityBlob = 0x7,
-	EntityBlobFrozen = 0x8,
-	ColorRedLVL2 = 0x9,
-	ColorRedLVL3 = 0xa,
-	ColorRedLVL4 = 0xb,
-	ColorRedLVL5 = 0xc,
-	ColorRedLVL6 = 0xd,
+	ColorRedLVL2 = 0x3,
+	ColorRedLVL3 = 0x4,
+	ColorRedLVL4 = 0x5,
+	ColorRedLVL5 = 0x6,
+	ColorRedLVL6 = 0x7,
 };
 
 // Registered binary: server.dll (project 'server')
@@ -6208,20 +6202,6 @@ struct VoxelVisBlockOffset_t
 public:
 	uint32_t m_nOffset; // 0x0	
 	uint32_t m_nElementCount; // 0x4	
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseLibraryBindings
-class CCSGameModeScript_ConVars
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
 };
 
 // Registered binary: server.dll (project 'server')
@@ -15176,7 +15156,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vanmgrpheconitemvents"
+// MResourceTypeForInfoType "vanmgrpheconitemp"
 class InfoForResourceTypeIAnimGraphModelBinding
 {
 private:
@@ -22681,7 +22661,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "econitemvents"
+// MResourceTypeForInfoType "econitemp"
 class InfoForResourceTypeCCSGOEconItem
 {
 private:
@@ -26101,20 +26081,6 @@ public:
 	CHandle< CBaseEntity > m_scriptedSequence; // 0x0	
 };
 
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseLibraryBindings
-class CCSDeathmatchScript_ConVars
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
 // Registered binary: particles.dll (project 'particles')
 // Alignment: 8
 // Size: 0x1e0
@@ -27622,7 +27588,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vgcxdatavxml"
+// MResourceTypeForInfoType "vgcxdata"
 class InfoForResourceTypeCGcExportableExternalData
 {
 private:

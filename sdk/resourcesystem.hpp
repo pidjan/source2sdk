@@ -183,7 +183,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vgcxdatavxml"
+// MResourceTypeForInfoType "vgcxdata"
 class InfoForResourceTypeCGcExportableExternalData
 {
 private:
@@ -197,7 +197,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "vanmgrpheconitemvents"
+// MResourceTypeForInfoType "vanmgrpheconitemp"
 class InfoForResourceTypeIAnimGraphModelBinding
 {
 private:
@@ -546,7 +546,7 @@ public:
 // Has Trivial Constructor
 // Has Trivial Destructor
 // 
-// MResourceTypeForInfoType "econitemvents"
+// MResourceTypeForInfoType "econitemp"
 class InfoForResourceTypeCCSGOEconItem
 {
 private:

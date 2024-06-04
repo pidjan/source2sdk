@@ -4,7 +4,7 @@
 
 // /////////////////////////////////////////////////////////////
 // Binary: server.dll
-// Classes count: 659 (Allocated) | 809 (Unallocated)
+// Classes count: 650 (Allocated) | 798 (Unallocated)
 // Enums count: 2 (Allocated) | 133 (Unallocated)
 // Created using source2gen - github.com/neverlosecc/source2gen
 // /////////////////////////////////////////////////////////////
@@ -412,7 +412,7 @@ enum class Materials : uint32_t
 };
 
 // Registered binary: server.dll (project 'server')
-// Enumerator count: 15
+// Enumerator count: 9
 // Alignment: 4
 // Size: 0x4
 enum class BloodType : uint32_t
@@ -421,17 +421,11 @@ enum class BloodType : uint32_t
 	ColorRed = 0x0,
 	ColorYellow = 0x1,
 	ColorGreen = 0x2,
-	ColorBrightGreen = 0x3,
-	EntityMech = 0x4,
-	EntityAntlion = 0x5,
-	EntityZombie = 0x6,
-	EntityBlob = 0x7,
-	EntityBlobFrozen = 0x8,
-	ColorRedLVL2 = 0x9,
-	ColorRedLVL3 = 0xa,
-	ColorRedLVL4 = 0xb,
-	ColorRedLVL5 = 0xc,
-	ColorRedLVL6 = 0xd,
+	ColorRedLVL2 = 0x3,
+	ColorRedLVL3 = 0x4,
+	ColorRedLVL4 = 0x5,
+	ColorRedLVL5 = 0x6,
+	ColorRedLVL6 = 0x7,
 };
 
 // Registered binary: server.dll (project 'server')
@@ -2320,7 +2314,6 @@ struct CPropDataComponent;
 struct Extent;
 struct CAttributeContainer;
 struct VPhysicsCollisionAttribute_t;
-struct CCSGameModeRules_Deathmatch;
 struct hudtextparms_t;
 struct shard_model_desc_t;
 struct CTouchExpansionComponent;
@@ -2329,7 +2322,6 @@ struct CPlayer_ViewModelServices;
 struct CCSPlayerController;
 struct ChangeAccessorFieldPathIndex_t;
 struct CEntityIdentity;
-struct CCSGameModeRules_ArmsRace;
 struct SceneEventId_t;
 struct CFiringModeFloat;
 struct CFiringModeInt;
@@ -2449,21 +2441,6 @@ public:
 	// MNetworkEnable
 	bool m_bEligibleForScreenHighlight; // 0x50	
 	bool m_bGlowing; // 0x51	
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseProvideFeatureTag
-// MPulseLibraryBindings
-class CCSPlayerControllerAPI
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
 };
 
 // Registered binary: server.dll (project 'entity2')
@@ -5460,7 +5437,7 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x38
+// Size: 0x30
 // Has VTable
 class CCSGameModeRules
 {
@@ -8206,21 +8183,6 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseProvideFeatureTag
-// MPulseLibraryBindings
-class CCSObserverPawnAPI
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
 // Size: 0x4c8
 // Has VTable
 class CCSServerPointScriptEntity : public CCSPointScriptEntity
@@ -8781,20 +8743,6 @@ class CTriggerVolume : public CBaseModelEntity
 public:
 	CUtlSymbolLarge m_iFilterName; // 0x710	
 	CHandle< CBaseFilter > m_hFilter; // 0x718	
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
-// Size: 0xf8
-// Has VTable
-// 
-// MPulseInstanceDomainInfo
-// MPulseDomainHookInfo
-// MPulseLibraryBindings
-// MPulseDomainOptInFeatureTag
-class CCSGameModeScript : public CBasePulseGraphInstance
-{
-public:
 };
 
 // Registered binary: server.dll (project 'server')
@@ -11218,7 +11166,7 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x38
+// Size: 0x30
 // Has VTable
 class CCSGameModeRules_Noop : public CCSGameModeRules
 {
@@ -11581,21 +11529,6 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseProvideFeatureTag
-// MPulseLibraryBindings
-class CCSWeaponBaseAPI
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
 // Size: 0xeb8
 // Has VTable
 class CWeaponMAC10 : public CCSWeaponBaseGun
@@ -11879,7 +11812,7 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x50
+// Size: 0x80
 // Has VTable
 // 
 // MNetworkVarNames "CUtlString m_WeaponSequence"
@@ -11887,7 +11820,7 @@ class CCSGameModeRules_ArmsRace : public CCSGameModeRules
 {
 public:
 	// MNetworkEnable
-	CNetworkUtlVectorBase< CUtlString > m_WeaponSequence; // 0x38	
+	CNetworkUtlVectorBase< CUtlString > m_WeaponSequence; // 0x30	
 };
 
 // Registered binary: server.dll (project 'server')
@@ -14038,21 +13971,6 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseProvideFeatureTag
-// MPulseLibraryBindings
-class CCSWeaponBaseVDataAPI
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
 // Size: 0xaa0
 // Has VTable
 class CSensorGrenadeProjectile : public CBaseCSGrenadeProjectile
@@ -14419,7 +14337,7 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x48
+// Size: 0x88
 // Has VTable
 // 
 // MNetworkVarNames "GameTime_t m_flDMBonusStartTime"
@@ -14429,11 +14347,11 @@ class CCSGameModeRules_Deathmatch : public CCSGameModeRules
 {
 public:
 	// MNetworkEnable
-	GameTime_t m_flDMBonusStartTime; // 0x38	
+	GameTime_t m_flDMBonusStartTime; // 0x30	
 	// MNetworkEnable
-	float m_flDMBonusTimeLength; // 0x3c	
+	float m_flDMBonusTimeLength; // 0x34	
 	// MNetworkEnable
-	CUtlString m_sDMBonusWeapon; // 0x40	
+	CUtlString m_sDMBonusWeapon; // 0x38	
 };
 
 // Registered binary: server.dll (project 'server')
@@ -15948,21 +15866,6 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseProvideFeatureTag
-// MPulseLibraryBindings
-class CCSPlayerPawnAPI
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
 // Size: 0x6d0
 // Has VTable
 class CSoundOpvarSetOBBEntity : public CSoundOpvarSetAABBEntity
@@ -17317,21 +17220,6 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x100
-// Has VTable
-// 
-// MPulseInstanceDomainInfo
-// MPulseDomainHookInfo
-// MPulseLibraryBindings
-// MPulseDomainOptInFeatureTag
-class CCSDeathmatchScript : public CCSGameModeScript
-{
-public:
-	CCSGameModeRules_Deathmatch* m_pOuter; // 0xf8	
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
 // Size: 0x908
 // Has VTable
 class CTriggerRemove : public CBaseTrigger
@@ -18367,21 +18255,6 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x100
-// Has VTable
-// 
-// MPulseInstanceDomainInfo
-// MPulseDomainHookInfo
-// MPulseLibraryBindings
-// MPulseDomainOptInFeatureTag
-class CCSArmsRaceScript : public CCSGameModeScript
-{
-public:
-	CCSGameModeRules_ArmsRace* m_pOuter; // 0xf8	
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
 // Size: 0x150
 // Has VTable
 // 
@@ -19159,14 +19032,16 @@ private:
 	[[maybe_unused]] uint8_t __pad18b1[0x3]; // 0x18b1
 public:
 	float m_ignoreLadderJumpTime; // 0x18b4	
-	int32_t m_NumEnemiesKilledThisRound; // 0x18b8	
 	// MNetworkEnable
-	bool m_bKilledByHeadshot; // 0x18bc	
+	bool m_bKilledByHeadshot; // 0x18b8	
 private:
-	[[maybe_unused]] uint8_t __pad18bd[0x3]; // 0x18bd
+	[[maybe_unused]] uint8_t __pad18b9[0x3]; // 0x18b9
 public:
-	int32_t m_LastHitBox; // 0x18c0	
-	int32_t m_LastHealth; // 0x18c4	
+	int32_t m_LastHitBox; // 0x18bc	
+	int32_t m_LastHealth; // 0x18c0	
+private:
+	[[maybe_unused]] uint8_t __pad18c4[0x4]; // 0x18c4
+public:
 	CCSBot* m_pBot; // 0x18c8	
 	bool m_bBotAllowActive; // 0x18d0	
 private:
@@ -20887,21 +20762,6 @@ class CHostageRescueZone : public CHostageRescueZoneShim
 {
 public:
 	// No schema binary for binding
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseProvideFeatureTag
-// MPulseLibraryBindings
-class CCSTakeDamageInfoAPI
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
 };
 
 // Registered binary: server.dll (project 'server')
@@ -23242,20 +23102,6 @@ public:
 
 // Registered binary: server.dll (project 'server')
 // Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseLibraryBindings
-class CCSGameModeScript_ConVars
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
 // Size: 0xa8
 // Has VTable
 class CTakeDamageInfo
@@ -24164,20 +24010,6 @@ public:
 	int32_t m_iNumSuicides; // 0x3c	
 	int32_t m_iNumTeamKills; // 0x40	
 	int32_t m_iTeamDamage; // 0x44	
-};
-
-// Registered binary: server.dll (project 'server')
-// Alignment: 8
-// Size: 0x1
-// Has Trivial Constructor
-// Has Trivial Destructor
-// 
-// MPulseLibraryBindings
-class CCSDeathmatchScript_ConVars
-{
-private:
-	[[maybe_unused]] uint8_t __pad0000[0x1]; // 0x0
-public:
 };
 
 // Registered binary: server.dll (project 'server')
