@@ -2744,7 +2744,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 // 
 // MNetworkExcludeByName "m_flTimeWeaponIdle"
@@ -2884,56 +2884,56 @@ private:
 public:
 	float m_flNextAttackRenderTimeOffset; // 0x175c	
 private:
-	[[maybe_unused]] uint8_t __pad1760[0x88]; // 0x1760
+	[[maybe_unused]] uint8_t __pad1760[0x98]; // 0x1760
 public:
-	bool m_bClearWeaponIdentifyingUGC; // 0x17e8	
-	bool m_bVisualsDataSet; // 0x17e9	
-	bool m_bOldFirstPersonSpectatedState; // 0x17ea	
-	bool m_bUIWeapon; // 0x17eb	
-	int32_t m_nCustomEconReloadEventId; // 0x17ec	
+	bool m_bClearWeaponIdentifyingUGC; // 0x17f8	
+	bool m_bVisualsDataSet; // 0x17f9	
+	bool m_bOldFirstPersonSpectatedState; // 0x17fa	
+	bool m_bUIWeapon; // 0x17fb	
+	int32_t m_nCustomEconReloadEventId; // 0x17fc	
 private:
-	[[maybe_unused]] uint8_t __pad17f0[0x8]; // 0x17f0
+	[[maybe_unused]] uint8_t __pad1800[0x8]; // 0x1800
 public:
 	// MNetworkEnable
-	CHandle< C_CSPlayerPawn > m_hPrevOwner; // 0x17f8	
+	CHandle< C_CSPlayerPawn > m_hPrevOwner; // 0x1808	
 	// MNetworkEnable
-	GameTick_t m_nDropTick; // 0x17fc	
+	GameTick_t m_nDropTick; // 0x180c	
 private:
-	[[maybe_unused]] uint8_t __pad1800[0x1c]; // 0x1800
+	[[maybe_unused]] uint8_t __pad1810[0x1c]; // 0x1810
 public:
-	bool m_donated; // 0x181c	
+	bool m_donated; // 0x182c	
 private:
-	[[maybe_unused]] uint8_t __pad181d[0x3]; // 0x181d
+	[[maybe_unused]] uint8_t __pad182d[0x3]; // 0x182d
 public:
 	// MNetworkEnable
-	GameTime_t m_fLastShotTime; // 0x1820	
-	bool m_bWasOwnedByCT; // 0x1824	
-	bool m_bWasOwnedByTerrorist; // 0x1825	
+	GameTime_t m_fLastShotTime; // 0x1830	
+	bool m_bWasOwnedByCT; // 0x1834	
+	bool m_bWasOwnedByTerrorist; // 0x1835	
 private:
-	[[maybe_unused]] uint8_t __pad1826[0x2]; // 0x1826
+	[[maybe_unused]] uint8_t __pad1836[0x2]; // 0x1836
 public:
-	float m_gunHeat; // 0x1828	
-	uint32_t m_smokeAttachments; // 0x182c	
-	GameTime_t m_lastSmokeTime; // 0x1830	
-	float m_flNextClientFireBulletTime; // 0x1834	
-	float m_flNextClientFireBulletTime_Repredict; // 0x1838	
+	float m_gunHeat; // 0x1838	
+	uint32_t m_smokeAttachments; // 0x183c	
+	GameTime_t m_lastSmokeTime; // 0x1840	
+	float m_flNextClientFireBulletTime; // 0x1844	
+	float m_flNextClientFireBulletTime_Repredict; // 0x1848	
 private:
-	[[maybe_unused]] uint8_t __pad183c[0xd4]; // 0x183c
+	[[maybe_unused]] uint8_t __pad184c[0xd4]; // 0x184c
 public:
-	C_IronSightController m_IronSightController; // 0x1910	
+	C_IronSightController m_IronSightController; // 0x1920	
 	// MNetworkEnable
-	int32_t m_iIronSightMode; // 0x19c0	
+	int32_t m_iIronSightMode; // 0x19d0	
 private:
-	[[maybe_unused]] uint8_t __pad19c4[0xc]; // 0x19c4
+	[[maybe_unused]] uint8_t __pad19d4[0xc]; // 0x19d4
 public:
-	GameTime_t m_flLastLOSTraceFailureTime; // 0x19d0	
+	GameTime_t m_flLastLOSTraceFailureTime; // 0x19e0	
 	// MNetworkEnable
-	int32_t m_iNumEmptyAttacks; // 0x19d4	
+	int32_t m_iNumEmptyAttacks; // 0x19e4	
 private:
-	[[maybe_unused]] uint8_t __pad19d8[0x78]; // 0x19d8
+	[[maybe_unused]] uint8_t __pad19e8[0x78]; // 0x19e8
 public:
-	GameTime_t m_flLastMagDropRequestTime; // 0x1a50	
-	float m_flWatTickOffset; // 0x1a54	
+	GameTime_t m_flLastMagDropRequestTime; // 0x1a60	
+	float m_flWatTickOffset; // 0x1a64	
 };
 
 // Registered binary: client.dll (project 'client')
@@ -2982,7 +2982,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 // 
 // MNetworkVarNames "int m_zoomLevel"
@@ -2992,22 +2992,22 @@ class C_CSWeaponBaseGun : public C_CSWeaponBase
 {
 public:
 	// MNetworkEnable
-	int32_t m_zoomLevel; // 0x1a60	
+	int32_t m_zoomLevel; // 0x1a70	
 	// MNetworkEnable
-	int32_t m_iBurstShotsRemaining; // 0x1a64	
-	int32_t m_iSilencerBodygroup; // 0x1a68	
+	int32_t m_iBurstShotsRemaining; // 0x1a74	
+	int32_t m_iSilencerBodygroup; // 0x1a78	
 private:
-	[[maybe_unused]] uint8_t __pad1a6c[0xc]; // 0x1a6c
+	[[maybe_unused]] uint8_t __pad1a7c[0xc]; // 0x1a7c
 public:
-	int32_t m_silencedModelIndex; // 0x1a78	
-	bool m_inPrecache; // 0x1a7c	
+	int32_t m_silencedModelIndex; // 0x1a88	
+	bool m_inPrecache; // 0x1a8c	
 	// MNetworkEnable
-	bool m_bNeedsBoltAction; // 0x1a7d	
+	bool m_bNeedsBoltAction; // 0x1a8d	
 };
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_DEagle : public C_CSWeaponBaseGun
 {
@@ -3122,7 +3122,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 // 
 // MNetworkVarNames "CountdownTimer m_SequenceCompleteTimer"
@@ -3131,9 +3131,9 @@ class C_WeaponBaseItem : public C_CSWeaponBase
 {
 public:
 	// MNetworkEnable
-	CountdownTimer m_SequenceCompleteTimer; // 0x1a60	
+	CountdownTimer m_SequenceCompleteTimer; // 0x1a70	
 	// MNetworkEnable
-	bool m_bRedraw; // 0x1a78	
+	bool m_bRedraw; // 0x1a88	
 };
 
 // Registered binary: client.dll (project 'client')
@@ -3242,7 +3242,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x1aa0
+// Size: 0x1ab0
 // Has VTable
 // 
 // MNetworkVarNames "bool m_bRedraw"
@@ -3262,43 +3262,43 @@ public:
 class C_BaseCSGrenade : public C_CSWeaponBase
 {
 public:
-	bool m_bClientPredictDelete; // 0x1a60	
+	bool m_bClientPredictDelete; // 0x1a70	
 	// MNetworkEnable
-	bool m_bRedraw; // 0x1a61	
-	// MNetworkEnable
-	// MNetworkChangeCallback "OnGrenadeStateChanged"
-	bool m_bIsHeldByPlayer; // 0x1a62	
+	bool m_bRedraw; // 0x1a71	
 	// MNetworkEnable
 	// MNetworkChangeCallback "OnGrenadeStateChanged"
-	bool m_bPinPulled; // 0x1a63	
+	bool m_bIsHeldByPlayer; // 0x1a72	
 	// MNetworkEnable
-	bool m_bJumpThrow; // 0x1a64	
+	// MNetworkChangeCallback "OnGrenadeStateChanged"
+	bool m_bPinPulled; // 0x1a73	
 	// MNetworkEnable
-	bool m_bThrowAnimating; // 0x1a65	
+	bool m_bJumpThrow; // 0x1a74	
+	// MNetworkEnable
+	bool m_bThrowAnimating; // 0x1a75	
 private:
-	[[maybe_unused]] uint8_t __pad1a66[0x2]; // 0x1a66
+	[[maybe_unused]] uint8_t __pad1a76[0x2]; // 0x1a76
 public:
 	// MNetworkEnable
-	GameTime_t m_fThrowTime; // 0x1a68	
+	GameTime_t m_fThrowTime; // 0x1a78	
 	// MNetworkEnable
-	float m_flThrowStrength; // 0x1a6c	
+	float m_flThrowStrength; // 0x1a7c	
 	// MNetworkEnable
-	float m_flThrowStrengthApproach; // 0x1a70	
+	float m_flThrowStrengthApproach; // 0x1a80	
 	// MNetworkEnable
-	GameTime_t m_fDropTime; // 0x1a74	
+	GameTime_t m_fDropTime; // 0x1a84	
 	// MNetworkEnable
-	GameTime_t m_fPinPullTime; // 0x1a78	
+	GameTime_t m_fPinPullTime; // 0x1a88	
 	// MNetworkEnable
-	bool m_bJustPulledPin; // 0x1a7c	
+	bool m_bJustPulledPin; // 0x1a8c	
 private:
-	[[maybe_unused]] uint8_t __pad1a7d[0x3]; // 0x1a7d
+	[[maybe_unused]] uint8_t __pad1a8d[0x3]; // 0x1a8d
 public:
 	// MNetworkEnable
-	GameTick_t m_nNextHoldTick; // 0x1a80	
+	GameTick_t m_nNextHoldTick; // 0x1a90	
 	// MNetworkEnable
-	float m_flNextHoldFrac; // 0x1a84	
+	float m_flNextHoldFrac; // 0x1a94	
 	// MNetworkEnable
-	CHandle< C_CSWeaponBase > m_hSwitchToWeaponAfterThrow; // 0x1a88	
+	CHandle< C_CSWeaponBase > m_hSwitchToWeaponAfterThrow; // 0x1a98	
 };
 
 // Registered binary: client.dll (project 'client')
@@ -3407,7 +3407,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponAug : public C_CSWeaponBaseGun
 {
@@ -4173,7 +4173,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1aa0
+// Size: 0x1ab0
 // Has VTable
 class C_Flashbang : public C_BaseCSGrenade
 {
@@ -4183,7 +4183,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class CBumpMine : public C_CSWeaponBase
 {
@@ -4356,7 +4356,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1aa0
+// Size: 0x1ab0
 // Has VTable
 class C_SmokeGrenade : public C_BaseCSGrenade
 {
@@ -4366,7 +4366,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponGalilAR : public C_CSWeaponBaseGun
 {
@@ -4609,7 +4609,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponM4A1 : public C_CSWeaponBaseGun
 {
@@ -4892,7 +4892,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_Item_Healthshot : public C_WeaponBaseItem
 {
@@ -5011,7 +5011,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponMag7 : public C_CSWeaponBaseGun
 {
@@ -5218,7 +5218,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1ac0
+// Size: 0x1ad0
 // Has VTable
 // 
 // MNetworkVarNames "bool m_bStartedArming"
@@ -5229,28 +5229,28 @@ public:
 class C_C4 : public C_CSWeaponBase
 {
 public:
-	char m_szScreenText[32]; // 0x1a60	
-	ParticleIndex_t m_activeLightParticleIndex; // 0x1a80	
-	C4LightEffect_t m_eActiveLightEffect; // 0x1a84	
+	char m_szScreenText[32]; // 0x1a70	
+	ParticleIndex_t m_activeLightParticleIndex; // 0x1a90	
+	C4LightEffect_t m_eActiveLightEffect; // 0x1a94	
 	// MNetworkEnable
-	bool m_bStartedArming; // 0x1a88	
+	bool m_bStartedArming; // 0x1a98	
 private:
-	[[maybe_unused]] uint8_t __pad1a89[0x3]; // 0x1a89
+	[[maybe_unused]] uint8_t __pad1a99[0x3]; // 0x1a99
 public:
 	// MNetworkEnable
-	GameTime_t m_fArmedTime; // 0x1a8c	
+	GameTime_t m_fArmedTime; // 0x1a9c	
 	// MNetworkEnable
-	bool m_bBombPlacedAnimation; // 0x1a90	
+	bool m_bBombPlacedAnimation; // 0x1aa0	
 	// MNetworkEnable
-	bool m_bIsPlantingViaUse; // 0x1a91	
+	bool m_bIsPlantingViaUse; // 0x1aa1	
 private:
-	[[maybe_unused]] uint8_t __pad1a92[0x6]; // 0x1a92
+	[[maybe_unused]] uint8_t __pad1aa2[0x6]; // 0x1aa2
 public:
 	// MNetworkEnable
-	EntitySpottedState_t m_entitySpottedState; // 0x1a98	
-	int32_t m_nSpotRules; // 0x1ab0	
-	bool m_bPlayedArmingBeeps[7]; // 0x1ab4	
-	bool m_bBombPlanted; // 0x1abb	
+	EntitySpottedState_t m_entitySpottedState; // 0x1aa8	
+	int32_t m_nSpotRules; // 0x1ac0	
+	bool m_bPlayedArmingBeeps[7]; // 0x1ac4	
+	bool m_bBombPlanted; // 0x1acb	
 };
 
 // Registered binary: client.dll (project 'client')
@@ -5287,7 +5287,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class C_Melee : public C_CSWeaponBase
 {
@@ -5383,7 +5383,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponP90 : public C_CSWeaponBaseGun
 {
@@ -5393,7 +5393,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponCZ75a : public C_CSWeaponBaseGun
 {
@@ -5577,7 +5577,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponAWP : public C_CSWeaponBaseGun
 {
@@ -6075,7 +6075,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1ab0
+// Size: 0x1ac0
 // Has VTable
 class C_MolotovGrenade : public C_BaseCSGrenade
 {
@@ -6236,7 +6236,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponRevolver : public C_CSWeaponBaseGun
 {
@@ -6470,7 +6470,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponMP5SD : public C_CSWeaponBaseGun
 {
@@ -6945,7 +6945,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponG3SG1 : public C_CSWeaponBaseGun
 {
@@ -6975,7 +6975,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponMP7 : public C_CSWeaponBaseGun
 {
@@ -6985,7 +6985,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponSG556 : public C_CSWeaponBaseGun
 {
@@ -7099,7 +7099,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x2358
+// Size: 0x2368
 // Has VTable
 // 
 // MNetworkVarNames "CCSPlayer_BulletServices * m_pBulletServices"
@@ -7256,214 +7256,214 @@ public:
 	// MNetworkUserGroup "LocalPlayerExclusive"
 	GameTime_t m_flNextSprayDecalTime; // 0x1520	
 private:
-	[[maybe_unused]] uint8_t __pad1524[0x11c]; // 0x1524
+	[[maybe_unused]] uint8_t __pad1524[0x12c]; // 0x1524
 public:
 	// MNetworkEnable
 	// MNetworkChangeCallback "OnRetakesOfferingChanged"
-	int32_t m_iRetakesOffering; // 0x1640	
+	int32_t m_iRetakesOffering; // 0x1650	
 	// MNetworkEnable
 	// MNetworkChangeCallback "OnRetakesOfferingCardChanged"
-	int32_t m_iRetakesOfferingCard; // 0x1644	
+	int32_t m_iRetakesOfferingCard; // 0x1654	
 	// MNetworkEnable
-	bool m_bRetakesHasDefuseKit; // 0x1648	
+	bool m_bRetakesHasDefuseKit; // 0x1658	
 	// MNetworkEnable
-	bool m_bRetakesMVPLastRound; // 0x1649	
+	bool m_bRetakesMVPLastRound; // 0x1659	
 private:
-	[[maybe_unused]] uint8_t __pad164a[0x2]; // 0x164a
+	[[maybe_unused]] uint8_t __pad165a[0x2]; // 0x165a
 public:
 	// MNetworkEnable
-	int32_t m_iRetakesMVPBoostItem; // 0x164c	
+	int32_t m_iRetakesMVPBoostItem; // 0x165c	
 	// MNetworkEnable
-	loadout_slot_t m_RetakesMVPBoostExtraUtility; // 0x1650	
+	loadout_slot_t m_RetakesMVPBoostExtraUtility; // 0x1660	
 private:
-	[[maybe_unused]] uint8_t __pad1654[0x1c]; // 0x1654
+	[[maybe_unused]] uint8_t __pad1664[0x1c]; // 0x1664
 public:
-	bool m_bNeedToReApplyGloves; // 0x1670	
+	bool m_bNeedToReApplyGloves; // 0x1680	
 private:
-	[[maybe_unused]] uint8_t __pad1671[0x7]; // 0x1671
+	[[maybe_unused]] uint8_t __pad1681[0x7]; // 0x1681
 public:
 	// MNetworkEnable
-	C_EconItemView m_EconGloves; // 0x1678	
+	C_EconItemView m_EconGloves; // 0x1688	
 	// MNetworkEnable
 	// MNetworkChangeCallback "OnEconGlovesChanged"
-	uint8_t m_nEconGlovesChanged; // 0x1ac0	
-	bool m_bMustSyncRagdollState; // 0x1ac1	
+	uint8_t m_nEconGlovesChanged; // 0x1ad0	
+	bool m_bMustSyncRagdollState; // 0x1ad1	
 private:
-	[[maybe_unused]] uint8_t __pad1ac2[0x2]; // 0x1ac2
+	[[maybe_unused]] uint8_t __pad1ad2[0x2]; // 0x1ad2
 public:
 	// MNetworkEnable
-	int32_t m_nRagdollDamageBone; // 0x1ac4	
+	int32_t m_nRagdollDamageBone; // 0x1ad4	
 	// MNetworkEnable
-	Vector m_vRagdollDamageForce; // 0x1ac8	
+	Vector m_vRagdollDamageForce; // 0x1ad8	
 	// MNetworkEnable
-	Vector m_vRagdollDamagePosition; // 0x1ad4	
+	Vector m_vRagdollDamagePosition; // 0x1ae4	
 	// MNetworkEnable
-	char m_szRagdollDamageWeaponName[64]; // 0x1ae0	
+	char m_szRagdollDamageWeaponName[64]; // 0x1af0	
 	// MNetworkEnable
-	bool m_bRagdollDamageHeadshot; // 0x1b20	
+	bool m_bRagdollDamageHeadshot; // 0x1b30	
 private:
-	[[maybe_unused]] uint8_t __pad1b21[0x3]; // 0x1b21
+	[[maybe_unused]] uint8_t __pad1b31[0x3]; // 0x1b31
 public:
 	// MNetworkEnable
-	Vector m_vRagdollServerOrigin; // 0x1b24	
+	Vector m_vRagdollServerOrigin; // 0x1b34	
 private:
-	[[maybe_unused]] uint8_t __pad1b30[0x608]; // 0x1b30
+	[[maybe_unused]] uint8_t __pad1b40[0x608]; // 0x1b40
 public:
-	bool m_bLastHeadBoneTransformIsValid; // 0x2138	
+	bool m_bLastHeadBoneTransformIsValid; // 0x2148	
 private:
-	[[maybe_unused]] uint8_t __pad2139[0x3]; // 0x2139
+	[[maybe_unused]] uint8_t __pad2149[0x3]; // 0x2149
 public:
-	GameTime_t m_lastLandTime; // 0x213c	
-	bool m_bOnGroundLastTick; // 0x2140	
+	GameTime_t m_lastLandTime; // 0x214c	
+	bool m_bOnGroundLastTick; // 0x2150	
 private:
-	[[maybe_unused]] uint8_t __pad2141[0x1b]; // 0x2141
-public:
-	// MNetworkEnable
-	QAngle m_qDeathEyeAngles; // 0x215c	
-	bool m_bSkipOneHeadConstraintUpdate; // 0x2168	
-	// MNetworkEnable
-	bool m_bLeftHanded; // 0x2169	
-private:
-	[[maybe_unused]] uint8_t __pad216a[0x2]; // 0x216a
+	[[maybe_unused]] uint8_t __pad2151[0x1b]; // 0x2151
 public:
 	// MNetworkEnable
-	GameTime_t m_fSwitchedHandednessTime; // 0x216c	
+	QAngle m_qDeathEyeAngles; // 0x216c	
+	bool m_bSkipOneHeadConstraintUpdate; // 0x2178	
+	// MNetworkEnable
+	bool m_bLeftHanded; // 0x2179	
+private:
+	[[maybe_unused]] uint8_t __pad217a[0x2]; // 0x217a
+public:
+	// MNetworkEnable
+	GameTime_t m_fSwitchedHandednessTime; // 0x217c	
 	// MNetworkEnable
 	// MNetworkMinValue "-2.000000"
 	// MNetworkMaxValue "2.500000"
-	float m_flViewmodelOffsetX; // 0x2170	
+	float m_flViewmodelOffsetX; // 0x2180	
 	// MNetworkEnable
 	// MNetworkMinValue "-2.000000"
 	// MNetworkMaxValue "2.000000"
-	float m_flViewmodelOffsetY; // 0x2174	
+	float m_flViewmodelOffsetY; // 0x2184	
 	// MNetworkEnable
 	// MNetworkMinValue "-2.000000"
 	// MNetworkMaxValue "2.000000"
-	float m_flViewmodelOffsetZ; // 0x2178	
+	float m_flViewmodelOffsetZ; // 0x2188	
 	// MNetworkEnable
 	// MNetworkMinValue "60.000000"
 	// MNetworkMaxValue "68.000000"
-	float m_flViewmodelFOV; // 0x217c	
+	float m_flViewmodelFOV; // 0x218c	
 	// MNetworkEnable
 	// MNetworkChangeCallback "RecvProxy_PatchEconIndices"
-	uint32_t m_vecPlayerPatchEconIndices[5]; // 0x2180	
+	uint32_t m_vecPlayerPatchEconIndices[5]; // 0x2190	
 private:
-	[[maybe_unused]] uint8_t __pad2194[0x24]; // 0x2194
+	[[maybe_unused]] uint8_t __pad21a4[0x24]; // 0x21a4
 public:
 	// MNetworkEnable
-	Color m_GunGameImmunityColor; // 0x21b8	
+	Color m_GunGameImmunityColor; // 0x21c8	
 private:
-	[[maybe_unused]] uint8_t __pad21bc[0x4c]; // 0x21bc
+	[[maybe_unused]] uint8_t __pad21cc[0x4c]; // 0x21cc
 public:
-	CUtlVector< C_BulletHitModel* > m_vecBulletHitModels; // 0x2208	
+	CUtlVector< C_BulletHitModel* > m_vecBulletHitModels; // 0x2218	
 	// MNetworkEnable
-	bool m_bIsWalking; // 0x2220	
+	bool m_bIsWalking; // 0x2230	
 private:
-	[[maybe_unused]] uint8_t __pad2221[0x7]; // 0x2221
+	[[maybe_unused]] uint8_t __pad2231[0x7]; // 0x2231
 public:
 	// MNetworkEnable
 	// MNetworkEncoder "qangle_precise"
 	// MNetworkChangeCallback "OnThirdPersonHeadingChanged"
 	// MNetworkPriority "32"
-	QAngle m_thirdPersonHeading; // 0x2228	
-private:
-	[[maybe_unused]] uint8_t __pad2234[0xc]; // 0x2234
-public:
-	// MNetworkEnable
-	// MNetworkChangeCallback "OnSlopeDropOffsetChanged"
-	// MNetworkPriority "32"
-	float m_flSlopeDropOffset; // 0x2240	
+	QAngle m_thirdPersonHeading; // 0x2238	
 private:
 	[[maybe_unused]] uint8_t __pad2244[0xc]; // 0x2244
 public:
 	// MNetworkEnable
-	// MNetworkChangeCallback "OnSlopeDropHeightChanged"
+	// MNetworkChangeCallback "OnSlopeDropOffsetChanged"
 	// MNetworkPriority "32"
-	float m_flSlopeDropHeight; // 0x2250	
+	float m_flSlopeDropOffset; // 0x2250	
 private:
 	[[maybe_unused]] uint8_t __pad2254[0xc]; // 0x2254
 public:
 	// MNetworkEnable
+	// MNetworkChangeCallback "OnSlopeDropHeightChanged"
+	// MNetworkPriority "32"
+	float m_flSlopeDropHeight; // 0x2260	
+private:
+	[[maybe_unused]] uint8_t __pad2264[0xc]; // 0x2264
+public:
+	// MNetworkEnable
 	// MNetworkChangeCallback "OnHeadConstraintChanged"
 	// MNetworkPriority "32"
-	Vector m_vHeadConstraintOffset; // 0x2260	
+	Vector m_vHeadConstraintOffset; // 0x2270	
 private:
-	[[maybe_unused]] uint8_t __pad226c[0xc]; // 0x226c
+	[[maybe_unused]] uint8_t __pad227c[0xc]; // 0x227c
 public:
 	// MNetworkEnable
-	EntitySpottedState_t m_entitySpottedState; // 0x2278	
+	EntitySpottedState_t m_entitySpottedState; // 0x2288	
 	// MNetworkEnable
-	bool m_bIsScoped; // 0x2290	
+	bool m_bIsScoped; // 0x22a0	
 	// MNetworkEnable
-	bool m_bResumeZoom; // 0x2291	
+	bool m_bResumeZoom; // 0x22a1	
 	// MNetworkEnable
-	bool m_bIsDefusing; // 0x2292	
+	bool m_bIsDefusing; // 0x22a2	
 	// MNetworkEnable
-	bool m_bIsGrabbingHostage; // 0x2293	
+	bool m_bIsGrabbingHostage; // 0x22a3	
 	// MNetworkEnable
-	CSPlayerBlockingUseAction_t m_iBlockingUseActionInProgress; // 0x2294	
+	CSPlayerBlockingUseAction_t m_iBlockingUseActionInProgress; // 0x22a4	
 	// MNetworkEnable
-	GameTime_t m_flEmitSoundTime; // 0x2298	
+	GameTime_t m_flEmitSoundTime; // 0x22a8	
 	// MNetworkEnable
-	bool m_bInNoDefuseArea; // 0x229c	
+	bool m_bInNoDefuseArea; // 0x22ac	
 private:
-	[[maybe_unused]] uint8_t __pad229d[0x3]; // 0x229d
+	[[maybe_unused]] uint8_t __pad22ad[0x3]; // 0x22ad
 public:
 	// MNetworkEnable
-	int32_t m_nWhichBombZone; // 0x22a0	
+	int32_t m_nWhichBombZone; // 0x22b0	
 	// MNetworkEnable
-	int32_t m_iShotsFired; // 0x22a4	
+	int32_t m_iShotsFired; // 0x22b4	
 	// MNetworkEnable
-	float m_flVelocityModifier; // 0x22a8	
+	float m_flVelocityModifier; // 0x22b8	
 	// MNetworkEnable
-	float m_flHitHeading; // 0x22ac	
+	float m_flHitHeading; // 0x22bc	
 	// MNetworkEnable
-	int32_t m_nHitBodyPart; // 0x22b0	
+	int32_t m_nHitBodyPart; // 0x22c0	
 	// MNetworkEnable
-	bool m_bWaitForNoAttack; // 0x22b4	
+	bool m_bWaitForNoAttack; // 0x22c4	
 private:
-	[[maybe_unused]] uint8_t __pad22b5[0x3]; // 0x22b5
+	[[maybe_unused]] uint8_t __pad22c5[0x3]; // 0x22c5
 public:
-	float m_ignoreLadderJumpTime; // 0x22b8	
+	float m_ignoreLadderJumpTime; // 0x22c8	
 private:
-	[[maybe_unused]] uint8_t __pad22bc[0x1]; // 0x22bc
-public:
-	// MNetworkEnable
-	bool m_bKilledByHeadshot; // 0x22bd	
-private:
-	[[maybe_unused]] uint8_t __pad22be[0x2]; // 0x22be
+	[[maybe_unused]] uint8_t __pad22cc[0x1]; // 0x22cc
 public:
 	// MNetworkEnable
-	int32_t m_ArmorValue; // 0x22c0	
-	// MNetworkEnable
-	uint16_t m_unCurrentEquipmentValue; // 0x22c4	
-	// MNetworkEnable
-	uint16_t m_unRoundStartEquipmentValue; // 0x22c6	
-	// MNetworkEnable
-	uint16_t m_unFreezetimeEndEquipmentValue; // 0x22c8	
+	bool m_bKilledByHeadshot; // 0x22cd	
 private:
-	[[maybe_unused]] uint8_t __pad22ca[0x2]; // 0x22ca
+	[[maybe_unused]] uint8_t __pad22ce[0x2]; // 0x22ce
 public:
 	// MNetworkEnable
-	CEntityIndex m_nLastKillerIndex; // 0x22cc	
-	bool m_bOldIsScoped; // 0x22d0	
-	bool m_bHasDeathInfo; // 0x22d1	
+	int32_t m_ArmorValue; // 0x22d0	
+	// MNetworkEnable
+	uint16_t m_unCurrentEquipmentValue; // 0x22d4	
+	// MNetworkEnable
+	uint16_t m_unRoundStartEquipmentValue; // 0x22d6	
+	// MNetworkEnable
+	uint16_t m_unFreezetimeEndEquipmentValue; // 0x22d8	
 private:
-	[[maybe_unused]] uint8_t __pad22d2[0x2]; // 0x22d2
+	[[maybe_unused]] uint8_t __pad22da[0x2]; // 0x22da
 public:
-	float m_flDeathInfoTime; // 0x22d4	
-	Vector m_vecDeathInfoOrigin; // 0x22d8	
-	GameTime_t m_grenadeParameterStashTime; // 0x22e4	
-	bool m_bGrenadeParametersStashed; // 0x22e8	
+	// MNetworkEnable
+	CEntityIndex m_nLastKillerIndex; // 0x22dc	
+	bool m_bOldIsScoped; // 0x22e0	
+	bool m_bHasDeathInfo; // 0x22e1	
 private:
-	[[maybe_unused]] uint8_t __pad22e9[0x3]; // 0x22e9
+	[[maybe_unused]] uint8_t __pad22e2[0x2]; // 0x22e2
 public:
-	QAngle m_angStashedShootAngles; // 0x22ec	
-	Vector m_vecStashedGrenadeThrowPosition; // 0x22f8	
-	Vector m_vecStashedVelocity; // 0x2304	
-	QAngle m_angShootAngleHistory[2]; // 0x2310	
-	Vector m_vecThrowPositionHistory[2]; // 0x2328	
-	Vector m_vecVelocityHistory[2]; // 0x2340	
+	float m_flDeathInfoTime; // 0x22e4	
+	Vector m_vecDeathInfoOrigin; // 0x22e8	
+	GameTime_t m_grenadeParameterStashTime; // 0x22f4	
+	bool m_bGrenadeParametersStashed; // 0x22f8	
+private:
+	[[maybe_unused]] uint8_t __pad22f9[0x3]; // 0x22f9
+public:
+	QAngle m_angStashedShootAngles; // 0x22fc	
+	Vector m_vecStashedGrenadeThrowPosition; // 0x2308	
+	Vector m_vecStashedVelocity; // 0x2314	
+	QAngle m_angShootAngleHistory[2]; // 0x2320	
+	Vector m_vecThrowPositionHistory[2]; // 0x2338	
+	Vector m_vecVelocityHistory[2]; // 0x2350	
 	
 	// Datamap fields:
 	// CCSPlayer_ItemServices m_pItemServices; // 0x1100
@@ -7477,7 +7477,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponGlock : public C_CSWeaponBaseGun
 {
@@ -7530,7 +7530,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class CWeaponZoneRepulsor : public C_CSWeaponBaseGun
 {
@@ -7733,7 +7733,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponP250 : public C_CSWeaponBaseGun
 {
@@ -7804,7 +7804,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class C_WeaponNOVA : public C_CSWeaponBase
 {
@@ -8347,14 +8347,14 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x23f0
+// Size: 0x2400
 // Has VTable
 class C_CSGO_PreviewPlayer : public C_CSPlayerPawn
 {
 public:
-	CUtlString m_animgraph; // 0x2358	
-	CGlobalSymbol m_animgraphCharacterModeString; // 0x2360	
-	float m_flInitialModelScale; // 0x2368	
+	CUtlString m_animgraph; // 0x2368	
+	CGlobalSymbol m_animgraphCharacterModeString; // 0x2370	
+	float m_flInitialModelScale; // 0x2378	
 };
 
 // Registered binary: client.dll (project 'client')
@@ -8389,7 +8389,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponMAC10 : public C_CSWeaponBaseGun
 {
@@ -8399,7 +8399,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a90
+// Size: 0x1aa0
 // Has VTable
 // 
 // MNetworkVarNames "float m_flDisplayHealth"
@@ -8407,7 +8407,7 @@ class C_WeaponShield : public C_CSWeaponBaseGun
 {
 public:
 	// MNetworkEnable
-	float m_flDisplayHealth; // 0x1a80	
+	float m_flDisplayHealth; // 0x1a90	
 };
 
 // Registered binary: client.dll (project 'client')
@@ -8620,7 +8620,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponUSPSilencer : public C_CSWeaponBaseGun
 {
@@ -8650,7 +8650,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponFamas : public C_CSWeaponBaseGun
 {
@@ -8713,7 +8713,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x1588
+// Size: 0x1590
 // Has VTable
 class C_CSGO_PreviewModel : public C_BaseFlex
 {
@@ -8724,6 +8724,9 @@ public:
 	AnimLoopMode_t m_nDefaultAnimLoopMode; // 0x1080	
 	float m_flInitialModelScale; // 0x1084	
 	CUtlString m_sInitialWeaponState; // 0x1088	
+	
+	// Datamap fields:
+	// CUtlSymbolLarge InputSetItem; // 0x0
 };
 
 // Registered binary: client.dll (project 'client')
@@ -9035,7 +9038,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponMP9 : public C_CSWeaponBaseGun
 {
@@ -9508,7 +9511,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponSSG08 : public C_CSWeaponBaseGun
 {
@@ -9796,7 +9799,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponTec9 : public C_CSWeaponBaseGun
 {
@@ -10241,7 +10244,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x23f0
+// Size: 0x2400
 // Has VTable
 class C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel : public C_CSGO_PreviewPlayer
 {
@@ -10294,7 +10297,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponHKP2000 : public C_CSWeaponBaseGun
 {
@@ -10304,7 +10307,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1aa0
+// Size: 0x1ab0
 // Has VTable
 class CTripWireFire : public C_BaseCSGrenade
 {
@@ -10314,7 +10317,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x1588
+// Size: 0x1590
 // Has VTable
 class C_CSGO_PreviewModelAlias_csgo_item_previewmodel : public C_CSGO_PreviewModel
 {
@@ -10378,7 +10381,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class C_WeaponXM1014 : public C_CSWeaponBase
 {
@@ -10476,7 +10479,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class CBreachCharge : public C_CSWeaponBase
 {
@@ -10586,7 +10589,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponBizon : public C_CSWeaponBaseGun
 {
@@ -10596,7 +10599,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_AK47 : public C_CSWeaponBaseGun
 {
@@ -10687,7 +10690,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class C_Knife : public C_CSWeaponBase
 {
@@ -10766,7 +10769,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1aa0
+// Size: 0x1ab0
 // Has VTable
 class C_SensorGrenade : public C_BaseCSGrenade
 {
@@ -10776,7 +10779,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a90
+// Size: 0x1aa0
 // Has VTable
 // 
 // MNetworkVarNames "GameTime_t m_fFireTime"
@@ -10784,13 +10787,13 @@ class C_WeaponTaser : public C_CSWeaponBaseGun
 {
 public:
 	// MNetworkEnable
-	GameTime_t m_fFireTime; // 0x1a80	
-	int32_t m_nLastAttackTick; // 0x1a84	
+	GameTime_t m_fFireTime; // 0x1a90	
+	int32_t m_nLastAttackTick; // 0x1a94	
 };
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a70
+// Size: 0x1a80
 // Has VTable
 // 
 // MNetworkVarNames "bool m_bPlayingUninterruptableAct"
@@ -10799,13 +10802,13 @@ class C_Fists : public C_CSWeaponBase
 {
 public:
 	// MNetworkEnable
-	bool m_bPlayingUninterruptableAct; // 0x1a60	
+	bool m_bPlayingUninterruptableAct; // 0x1a70	
 private:
-	[[maybe_unused]] uint8_t __pad1a61[0x3]; // 0x1a61
+	[[maybe_unused]] uint8_t __pad1a71[0x3]; // 0x1a71
 public:
 	// MNetworkEnable
 	// MNetworkChangeCallback "OnUninterruptChanged"
-	PlayerAnimEvent_t m_nUninterruptableActivity; // 0x1a64	
+	PlayerAnimEvent_t m_nUninterruptableActivity; // 0x1a74	
 };
 
 // Registered binary: client.dll (project 'client')
@@ -10923,7 +10926,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class C_WeaponSawedoff : public C_CSWeaponBase
 {
@@ -11060,7 +11063,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponElite : public C_CSWeaponBaseGun
 {
@@ -11119,7 +11122,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0x23f0
+// Size: 0x2400
 // Has VTable
 class C_CSGO_TeamPreviewModel : public C_CSGO_PreviewPlayer
 {
@@ -11283,7 +11286,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponSCAR20 : public C_CSWeaponBaseGun
 {
@@ -11293,7 +11296,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1aa0
+// Size: 0x1ab0
 // Has VTable
 class C_DecoyGrenade : public C_BaseCSGrenade
 {
@@ -11472,7 +11475,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponUMP45 : public C_CSWeaponBaseGun
 {
@@ -11569,7 +11572,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1aa0
+// Size: 0x1ab0
 // Has VTable
 class C_HEGrenade : public C_BaseCSGrenade
 {
@@ -11695,7 +11698,7 @@ public:
 	// MNetworkChangeAccessorFieldPathIndex
 	ChangeAccessorFieldPathIndex_t m_PathIndex; // 0x40	
 private:
-	[[maybe_unused]] uint8_t __pad0042[0x16]; // 0x42
+	[[maybe_unused]] uint8_t __pad0044[0x14]; // 0x44
 public:
 	CEntityIdentity* m_pPrev; // 0x58	
 	CEntityIdentity* m_pNext; // 0x60	
@@ -12210,7 +12213,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponFiveSeven : public C_CSWeaponBaseGun
 {
@@ -12558,7 +12561,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponNegev : public C_CSWeaponBaseGun
 {
@@ -12585,7 +12588,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1ab0
+// Size: 0x1ac0
 // Has VTable
 class C_IncendiaryGrenade : public C_MolotovGrenade
 {
@@ -12595,7 +12598,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a60
+// Size: 0x1a70
 // Has VTable
 class CTablet : public C_CSWeaponBase
 {
@@ -12827,7 +12830,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponM4A1Silencer : public C_CSWeaponBaseGun
 {
@@ -13156,7 +13159,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 8
-// Size: 0xb0
+// Size: 0xd8
 class CDecalInfo
 {
 public:
@@ -13178,9 +13181,9 @@ public:
 	CDecalInfo* m_pNext; // 0x40	
 	CDecalInfo* m_pPrev; // 0x48	
 private:
-	[[maybe_unused]] uint8_t __pad0050[0x58]; // 0x50
+	[[maybe_unused]] uint8_t __pad0050[0x80]; // 0x50
 public:
-	int32_t m_nDecalMaterialIndex; // 0xa8	
+	int32_t m_nDecalMaterialIndex; // 0xd0	
 	
 	// Datamap fields:
 	// void m_decalEvent; // 0x50
@@ -13844,7 +13847,7 @@ public:
 
 // Registered binary: client.dll (project 'client')
 // Alignment: 16
-// Size: 0x1a80
+// Size: 0x1a90
 // Has VTable
 class C_WeaponM249 : public C_CSWeaponBaseGun
 {
